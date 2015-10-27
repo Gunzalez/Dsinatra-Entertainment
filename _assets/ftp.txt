@@ -1,0 +1,21 @@
+FTP Details
+===========================================
+Host name: dsinatraent.com or 94.136.40.103
+User ID: ftp@dsinatraent.com
+Password: p7XU474kl0TAj2Hoh4Ol1
+
+
+Word Press login
+================================
+U: Muds
+P: W3stafrica
+
+
+Database
+========================================
+url - http://phpmyadmin.123-reg.co.uk/index.php?db=dsinatraentcom_1186030_db1&server=7&token=d943d85be18d23967c9dd8015775b5b8
+server - cust-mysql-123-07
+database - dsinatraentcom_1186030_db1
+username - uds_1186030_0001
+password - W3stafrica
+
