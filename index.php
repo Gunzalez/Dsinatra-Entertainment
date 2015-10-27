@@ -47,7 +47,7 @@
                 <img src="images/slideshow/slide-rachel-on.jpg" width="950" height="450" class="imagery">
                 <div class="copy">
                     <p class="clearfix"><span>Rachel Ikehwame</span></p>
-                    <p class="clearfix"><span>Miss West Africa</span></p>
+                    <p class="clearfix"><span>Miss West Africa Int.</span></p>
                     <a href="gallery.php" class="big-yellow">New Photos!</a>
                 </div>
             </li>
@@ -57,7 +57,7 @@
                 <div class="copy">
                     <p class="clearfix"><span>Okeke Queen</span></p>
                     <p class="clearfix"><span>Teen Super Model Nigeria</span></p>
-                    <a href="gallery.php" class="big-yellow">See photos</a>
+                    <a href="gallery4.php" class="big-yellow">See photos</a>
                 </div>
             </li>   
             <li>

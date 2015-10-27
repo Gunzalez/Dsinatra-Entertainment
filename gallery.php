@@ -29,15 +29,6 @@
 
 <?php require_once('html/header-area.php'); ?>
 
-<?php if (isset($_GET['queen'])){ ?>
-
-
-<?php } else { ?>
-
-
-<?php } ?>
-
-
 <div id="content">		
     
     <div id="gallerypage" class="content">
@@ -47,36 +38,17 @@
                 <h2 class="clearfix"><span>Queens of Nigeria</span></h2>
                 <div id="photos" class="copy galleries">
                     
-				<?php if (isset($_GET['queen'])){ 
-                	require_once('gallery/queen-nigeria-2.php');
-                } else { 
-                	require_once('gallery/queen-nigeria.php'); 
-                } 
-                ?>
+				<?php require_once('gallery/queen-nigeria.php'); ?>
                 
                 </div>
             </div>
             
             <div class="content-box sidebar" id="photo-nav">
             	<h2 class="clearfix"><span>Photo galleries</span></h2>
-                <ul class="newslist">
-                    
-                    <?php if (isset($_GET['queen'])){ ?>
 
-                        <li class="active"><a href="gallery/queen-nigeria-2.php" id="queen-nigeria-2">Beauty Osemwegie (World Super Model Nigeria)</a></li>
-                        <li><a href="gallery/queen-nigeria.php" id="queen-nigeria">Miss Queen Okeke (Teen Super Model Nigeria)</a></li>
-                        
-                    <?php } else { ?>
-                    
-                        <li class="active"><a href="gallery/queen-nigeria.php" id="queen-nigeria">Miss Queen Okeke (Teen Super Model Nigeria)</a></li>
-                        <li><a href="gallery/queen-nigeria-2.php" id="queen-nigeria-2">Beauty Osemwegie (World Super Model Nigeria)</a></li>
-                    
-                    <?php } ?>
-                    
-                    
-                </ul>
                 <p class="more-galleries">
-                	<a href="gallery3.php">Queen Globe Event</a>
+                    <a href="gallery4.php">Queens of Nigerian</a>
+                	<a href="gallery3.php">The Queen Globe Event</a>
                 	<a href="gallery2.php">Miss West Africa Nigeria Photos</a>
                 </p>    
             </div>
