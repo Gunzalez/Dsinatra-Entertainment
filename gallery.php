@@ -35,10 +35,10 @@
     	<div class="centered clearfix">
             
             <div class="content-box wide"> 
-                <h2 class="clearfix"><span>Queens of Nigeria</span></h2>
+                <h2 class="clearfix"><span>Miss West Africa International - Miss Rachel Ikehwame</span></h2>
                 <div id="photos" class="copy galleries">
                     
-				<?php require_once('gallery/queen-nigeria.php'); ?>
+				<?php require_once('gallery/rachel-ikehwame.php'); ?>
                 
                 </div>
             </div>

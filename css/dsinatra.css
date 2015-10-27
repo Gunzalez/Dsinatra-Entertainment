@@ -258,7 +258,20 @@ ul#main-nav li a.active span {
 	-o-transition: all 0.3s;
 }
 
+#slideshow .copy {
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
 
+
+#slideshow .active .copy {
+    opacity: 1;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
 
 
 #content .glass {
@@ -1002,11 +1015,12 @@ address {
 /* footer */
 #footer {
 	/*background: url(../images/bg-footer.png) bottom left repeat-x #333;*/
+
+    background: url('../images/gplaypattern.png') 0 0 #ffffff;
 	position: relative;
-	border-top: 1px solid #fff;
+	border-top: 1px solid #ccc;
 	color: #ccc;
 	font-size: 15px;
-	background-color: #222;
 }
 /*
 
@@ -1102,7 +1116,7 @@ address {
 	display: inline-block;
 	background-color: transparent;
 	font-size: 12px;
-	color: #ccc;
+	color: #555;
 	padding: 0;
 	-webkit-transition: all 0.2s;
 	-moz-transition: all 0.2s;
@@ -1125,13 +1139,17 @@ address {
 }
 
 #footer p {
-	color: #fff;
+	color: #444;
+}
+
+#footer blockquote  {
+    color: #666;
 }
 
 #footer p.small-print {
 	font-size: 13px;
 	clear: left;
-	color: #ccc;
+	color: #333;
 }
 
 .social-footer {
@@ -1155,8 +1173,8 @@ address {
 
 #partners {
 	clear: left;
-	border-top: 1px solid #444;
-	background-color: #111;
+	border-top: 1px solid #ccc;
+	background-color: #ffffff;
 }
 
 #partners ul {
@@ -1180,43 +1198,45 @@ address {
 
 #partners ul li a img {
 	margin: 0 auto;
-	padding-bottom: 5px;
 }
 
 #partners ul li a span {
 	display: none;
 }
 
+#partners .logoRow {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#partners .logoRow li {
+    float: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+
 .logoRow li a {
 	border: 0;
 	padding: 0;
-	background-color: transparent !important;
-	opacity: 0.5;
+	background-color: #ffffff !important;
 	color: #fff;
-	width: 100%;
-	font-size: 12px;	
+	width: 100px;
+    height: 100px;
+	font-size: 12px;
+    display: inline;
 }
 
-.logoRow li a:hover {
-	opacity: 1;
-	-webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	-o-transition: all 0.5s;
-}
+/*.logoRow li a img {*/
+	/*display: block;*/
+/*}*/
 
-.logoRow li a img {
-	display: block;
-	filter: none;   
-    filter: gray;
-    -webkit-filter: grayscale(1);
-}
-
-.logoRow li a:hover img,
-.logoRow li a:active img {
-	display: block;
-	filter: none;
-    -webkit-filter: grayscale(0);
-}
+/*.logoRow li a:hover img,*/
+/*.logoRow li a:active img {*/
+	/*display: block;*/
+	/*filter: none;*/
+    /*-webkit-filter: grayscale(0);*/
+/*}*/
 
 #partners .fanchize {
 	width: 810px;
@@ -1242,7 +1262,7 @@ blockquote {
 .bqstart {
 	float: left;
 	font-size: 700%;
-	color: #e8e8e8;
+	color: #333;
 	height: 45px;
 	margin-top: -66px;
 	padding-top: 45px;
@@ -1254,7 +1274,7 @@ blockquote {
 .bqend {
 	float: right;
 	font-size: 700%;
-	color: #e8e8e8;
+	color: #333;
 	height: 45px;
 	margin-top: -66px;
 	padding-top: 45px;

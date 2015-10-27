@@ -42,7 +42,7 @@
                     <a href="JavaScript:html5Lightbox.showLightbox(3, 'http://youtu.be/h5NnFezuAhs', 'MWAN - LYNNXX EDIT');" data-width="480" data-height="320" class="big-yellow">Watch The Video</a>
                 </div>
             </li>
-            <li>
+            <li class="active">
                 <img src="images/slideshow/slide-rachel-off.jpg" width="950" height="450">
                 <img src="images/slideshow/slide-rachel-on.jpg" width="950" height="450" class="imagery">
                 <div class="copy">
