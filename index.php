@@ -10,6 +10,9 @@
 	<meta name="Description" content="D-Sinatra Entertainment is a leading professional entertainment and pageant company in Nigeria" />
 	<meta name="Keywords" content="D-Sinatra, Entertainment, D.Sinatra, D.Sinatraent, D-Sinatraent, Pageantry, Nigeria, Segun Konibire" />    
     <link rel="shortcut icon" type="image/x-icon" href="http://www.dsinatraent.com/images/favicon.ico">
+
+    <!-- Pinterest -->
+    <meta name="p:domain_verify" content="ca864390923e7517cfe5dbb0a10c79db"/>
     
     <link rel="stylesheet" type="text/css" href="css/dsinatra.css" />
     <link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
@@ -96,7 +99,11 @@
     <div class="content">
     	<div class="centered clearfix">
             <div class="content-box">
-
+                <h2 class="clearfix"><span>Rachel Ikehwame</span></h2>
+                <div class="copy">
+                    <p>Our reigning Miss West Africa International (<a href="gallery.php">See photos</a>)</p>
+                    <p><img src="images/rachel-Ikehwame.jpg" width="196" alt="Rachel Ikehwame" /></p>
+                </div>
 
             </div>
             <div class="content-box">
@@ -118,8 +125,9 @@
                 <h2 class="clearfix"><span>Latest News</span></h2>
                 <div class="copy">
                     <ul class="newslist">
-                    	<li><a href="gallery.php">New Photos from our Queens of Nigeria</a>.</li>
-                        <li><a href="gallery3.php">Olumilua Yemi - Queen Globe Pageant 2013 Photo Gallery</a>.</li>                        
+                    	<li><a href="gallery.php">Rachel Ikehwame - Miss West Africa International</a>.</li>
+                    	<li><a href="gallery4.php">New Photos from our Queens of Nigeria</a>.</li>
+                        <li><a href="gallery3.php">Olumilua Yemi - Queen Globe Pageant 2013 Photo Gallery</a>.</li>
                         <li><a href="news/miss-west-africa.php">Sophie-Ann Diete Spiff - Miss West Africa Nigeria</a>.</li>
                     	<li><a href="JavaScript:html5Lightbox.showLightbox(3, 'http://youtu.be/h5NnFezuAhs', 'MWAN - LYNNXX EDIT');" data-width="880">Watch Miss West African Nigeria <br />- MWAN, LYNNXX EDIT</a></li>
                         <!-- 

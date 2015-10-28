@@ -274,6 +274,22 @@ ul#main-nav li a.active span {
 }
 
 
+#slideshow .imagery {
+    opacity: 0;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+#slideshow .active .imagery {
+    opacity: 1;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+
+
 #content .glass {
 	height: 80px;
 	background-color: #000;
@@ -1124,18 +1140,14 @@ address {
 }
 
 .quicklinks li a:hover span {
-	background-color: #fff;
+	background-color: #ccc;
 	-webkit-transition: all 0.2s;
 	-moz-transition: all 0.2s;
 	-o-transition: all 0.2s;
 }
 
 .quicklinks li a:hover span.description {
-	color: #fff;
-	background-color: transparent;
-	-webkit-transition: all 0.2s;
-	-moz-transition: all 0.2s;
-	-o-transition: all 0.2s;
+    background-color: transparent;
 }
 
 #footer p {
@@ -1172,59 +1184,25 @@ address {
 
 
 #partners {
-	clear: left;
-	border-top: 1px solid #ccc;
+	border-top: 1px solid #e5e5e5;
 	background-color: #ffffff;
 }
 
 #partners ul {
-	padding: 0;
-	margin: 0 auto;
+	padding: 10px 0 25px 0;
+    margin: 0;
 	list-style: none;
 	width: 945px;
+    text-align: center;
 }
 
 #partners ul li {
-	float: left;
-	width: 105px;
-	padding: 10px 0 12px 0;
-}
-
-#partners ul li a {
-	background-color: transparent;
-	display: block;
-	text-align: center;	
+    display: inline-block;
+    padding: 0 30px;
 }
 
 #partners ul li a img {
-	margin: 0 auto;
-}
-
-#partners ul li a span {
-	display: none;
-}
-
-#partners .logoRow {
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-
-#partners .logoRow li {
-    float: none;
-    display: inline-block;
-    padding: 0 10px;
-}
-
-.logoRow li a {
-	border: 0;
-	padding: 0;
-	background-color: #ffffff !important;
-	color: #fff;
-	width: 100px;
-    height: 100px;
-	font-size: 12px;
-    display: inline;
+	display: block;
 }
 
 /*.logoRow li a img {*/
@@ -1238,20 +1216,20 @@ address {
     /*-webkit-filter: grayscale(0);*/
 /*}*/
 
-#partners .fanchize {
-	width: 810px;
-	margin-bottom: 25px;
-}
+/*#partners .fanchize {*/
+	/*width: 810px;*/
+	/*margin-bottom: 25px;*/
+/*}*/
 
-#partners .fanchize li {
-	width: 250px;
-	text-align: center;
-}
+/*#partners .fanchize li {*/
+	/*width: 250px;*/
+	/*text-align: center;*/
+/*}*/
 
-#partners .fanchize li.short {
-	width: 140px;
-	text-align: center;
-}
+/*#partners .fanchize li.short {*/
+	/*width: 140px;*/
+	/*text-align: center;*/
+/*}*/
 
 /* blocuquote */
 blockquote {

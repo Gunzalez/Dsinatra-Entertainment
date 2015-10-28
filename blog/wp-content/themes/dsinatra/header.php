@@ -94,7 +94,7 @@ if(!d.getElementById(id)){
             </li>  
         </ul>
         <div id="phone-numbers">
-            <p><strong>+234&nbsp;705&nbsp;077&nbsp;8749 / +234&nbsp;803&nbsp;764&nbsp;6093 / +234&nbsp;808&nbsp;543&nbsp;7008</strong></p>
+            <p><strong>+234&nbsp;705&nbsp;077&nbsp;8749 &nbsp;&nbsp; +234&nbsp;803&nbsp;764&nbsp;6093 &nbsp;&nbsp; +234&nbsp;808&nbsp;543&nbsp;7008</strong></p>
         </div>
         <ul id="social-nav">
         	<li class="fb"><a href="https://www.facebook.com/pages/DSinatra/300785450024245?fref=ts" target="_blank">Facebook</a></li>
