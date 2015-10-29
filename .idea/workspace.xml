@@ -48,18 +48,18 @@
       <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.038462" vertical-offset="1064" max-vertical-offset="2040">
-              <caret line="81" column="12" selection-start-line="81" selection-start-column="12" selection-end-line="110" selection-end-column="17" />
+            <state vertical-scroll-proportion="-6.8076925" vertical-offset="1064" max-vertical-offset="2040">
+              <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="76" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pageantry.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pageantry.php">
+      <file leaf-file-name="count.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/count.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.9615384" vertical-offset="765" max-vertical-offset="1717">
-              <caret line="42" column="241" selection-start-line="42" selection-start-column="241" selection-end-line="42" selection-end-column="241" />
+            <state vertical-scroll-proportion="-3.7307692" vertical-offset="243" max-vertical-offset="1156">
+              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -68,8 +68,8 @@
       <file leaf-file-name="queen-globe.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/news/queen-globe.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2822222" vertical-offset="3520" max-vertical-offset="4573">
-              <caret line="222" column="33" selection-start-line="222" selection-start-column="33" selection-end-line="222" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.71666664" vertical-offset="817" max-vertical-offset="4573">
+              <caret line="86" column="27" selection-start-line="86" selection-start-column="27" selection-end-line="86" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -78,8 +78,8 @@
       <file leaf-file-name="miss-west-africa.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/news/miss-west-africa.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.692307" vertical-offset="3495" max-vertical-offset="4607">
-              <caret line="225" column="29" selection-start-line="225" selection-start-column="29" selection-end-line="225" selection-end-column="29" />
+            <state vertical-scroll-proportion="-6.1538463" vertical-offset="792" max-vertical-offset="4607">
+              <caret line="56" column="41" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -132,8 +132,8 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/blog/wp-content/themes/dsinatra/footer.php" />
         <option value="$PROJECT_DIR$/html/footer.php" />
-        <option value="$PROJECT_DIR$/news/miss-west-africa.php" />
         <option value="$PROJECT_DIR$/news/queen-globe.php" />
+        <option value="$PROJECT_DIR$/news/miss-west-africa.php" />
       </list>
     </option>
   </component>
@@ -222,20 +222,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DSinatra" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DSinatra" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -317,7 +303,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1078" y="104" width="1874" height="1096" extended-state="0" />
+    <frame x="1078" y="104" width="1874" height="1096" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -504,14 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gallery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.961538" vertical-offset="0" max-vertical-offset="1275">
-          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/header-area.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-19.615385" vertical-offset="408" max-vertical-offset="1683">
@@ -530,32 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/count.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="939">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#1350#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pageantry.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.9615384" vertical-offset="765" max-vertical-offset="1717">
-          <caret line="42" column="241" selection-start-line="42" selection-start-column="241" selection-end-line="42" selection-end-column="241" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.038462" vertical-offset="1064" max-vertical-offset="2040">
-          <caret line="81" column="12" selection-start-line="81" selection-start-column="12" selection-end-line="110" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/wp-content/themes/dsinatra/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5277778" vertical-offset="766" max-vertical-offset="1666">
@@ -564,18 +516,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pageantry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0766667" vertical-offset="0" max-vertical-offset="1717">
+          <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.961538" vertical-offset="0" max-vertical-offset="1275">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.8076925" vertical-offset="1064" max-vertical-offset="2040">
+          <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/count.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.7307692" vertical-offset="243" max-vertical-offset="1156">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/news/miss-west-africa.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.692307" vertical-offset="3495" max-vertical-offset="4607">
-          <caret line="225" column="29" selection-start-line="225" selection-start-column="29" selection-end-line="225" selection-end-column="29" />
+        <state vertical-scroll-proportion="-6.1538463" vertical-offset="792" max-vertical-offset="4607">
+          <caret line="56" column="41" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/news/queen-globe.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2822222" vertical-offset="3520" max-vertical-offset="4573">
-          <caret line="222" column="33" selection-start-line="222" selection-start-column="33" selection-end-line="222" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.71666664" vertical-offset="817" max-vertical-offset="4573">
+          <caret line="86" column="27" selection-start-line="86" selection-start-column="27" selection-end-line="86" selection-end-column="27" />
           <folding />
         </state>
       </provider>

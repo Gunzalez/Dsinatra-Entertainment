@@ -51,28 +51,28 @@ if(!d.getElementById(id)){
 <div id="header">    
     <div class="container">
     	<div class="content">
-        <h1><a href="http://www.dsinatraent.com">DSinatra</a></h1>
+        <h1><a href="../index.php">DSinatra</a></h1>
         <ul id="main-nav">
             <li class="mn-item-1">
-                <a href="http://www.dsinatraent.com">
+                <a href="../index.php">
                     <strong>Home</strong>
                     <span>Site<br/>homepage</span>
                 </a>
             </li> 
             <li class="mn-item-2">
-                <a href="/news/queen-globe.php" class="active">
+                <a href="../news/queen-globe.php" class="active">
                     <strong>Pageantry</strong>
                     <span>W. Supermodel Nigeria</span>
                 </a>
             </li>
             <li class="mn-item-3">
-                <a href="/gallery.php">
+                <a href="../gallery.php">
                     <strong>Gallery</strong>
                     <span>Images and Video</span>
                 </a>
             </li>    
             <li class="mn-item-4">
-                <a href="/events.php">
+                <a href="../events.php">
                     <strong>Events</strong>
                     <span>Past, Present and Future</span>
                 </a>
@@ -84,7 +84,7 @@ if(!d.getElementById(id)){
                 </a>
             </li>  
             <li class="mn-item-6">
-                <a href="/about.php">
+                <a href="../about.php">
                     <strong>About</strong>
                     <span>D-Sinatra Entertainment</span>
                 </a>
