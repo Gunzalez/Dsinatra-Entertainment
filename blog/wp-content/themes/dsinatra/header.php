@@ -65,7 +65,7 @@ if(!d.getElementById(id)){
             <li class="mn-item-2"> 
                 <a href="/pageantry.php">
                     <strong>Pageantry</strong>
-                    <span>Queen Globe</span>
+                    <span>W. Supermodel Nigeria</span>
                 </a>
             </li>
             <li class="mn-item-3">

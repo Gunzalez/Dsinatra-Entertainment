@@ -39,37 +39,37 @@ if(!d.getElementById(id)){
             <li class="mn-item-1">
                 <a href="http://www.dsinatraent.com"<?php echo isActive($currPage, $pagesArr[0], $classStr) ?>>
                     <strong>Home</strong>
-                    <span>Site homepage</span>
+                    <span>Site<br/>homepage</span>
                 </a>
             </li>
             <li class="mn-item-2">
                 <a href="pageantry.php"<?php echo isActive($currPage, $pagesArr[1], $classStr) ?>>
                     <strong>Pageantry</strong>
-                    <span>Queen Globe</span>
+                    <span>W. Supermodel Nigeria</span>
                 </a>
             </li>
             <li class="mn-item-3">
                 <a href="gallery.php"<?php echo isActive($currPage, $pagesArr[4], $classStr) ?><?php echo isActive($currPage, $pagesArr[6], $classStr) ?>>
                     <strong>Gallery</strong>
-                    <span>Images &amp; Video</span>
+                    <span>Images and Video</span>
                 </a>
             </li>    
             <li class="mn-item-4">
                 <a href="events.php"<?php echo isActive($currPage, $pagesArr[3], $classStr) ?>>
                     <strong>Events</strong>
-                    <span>Past and Future</span>
+                    <span>Past, Present and Future</span>
                 </a>
             </li>  
             <li class="mn-item-5">
                 <a href="http://www.dsinatraent.com/blog/"<?php echo isActive($currPage, $pagesArr[2], $classStr) ?>>
                     <strong>Blog</strong>
-                    <span>See what they say</span>
+                    <span>What people are saying</span>
                 </a>
             </li>  
             <li class="mn-item-6">
                 <a href="about.php"<?php echo isActive($currPage, $pagesArr[5], $classStr) ?>>
                     <strong>About</strong>
-                    <span>D-Sinatra Ent.</span>
+                    <span>D-Sinatra Entertainment</span>
                 </a>
             </li>    
         </ul>
@@ -79,7 +79,9 @@ if(!d.getElementById(id)){
         <ul id="social-nav">
         	<li class="fb"><a href="https://www.facebook.com/pages/DSinatra/300785450024245?fref=ts" target="_blank">Facebook</a></li>
         	<li class="tw"><a href="https://mobile.twitter.com/DsinatraE" target="_blank">Twitter</a></li>
-            <li class="pi"><a href="http://pinterest.com/pin/create/button/?media=http://www.dsinatraent.com/images/dsinatra-pinterest.jpg&amp;url=http://www.dsinatraent.com/" target="_blank">Pinterest</a></li>
+        	<li class="in"><a href="https://instagram.com/dsinatrae/" target="_blank">Instagram</a></li>
+<!--            <li class="pi"><a href="http://pinterest.com/pin/create/button/?media=http://www.dsinatraent.com/images/dsinatra-pinterest.jpg&amp;url=http://www.dsinatraent.com/" target="_blank">Pinterest</a></li>-->
+            <li class="pi"><a href="https://www.pinterest.com/dsinatraent/" target="_blank">Pinterest</a></li>
             <li class="gg"><a href="https://plus.google.com/share?url=http://www.dsinatraent.com/" target="_blank">googleplus</a></li>
         	<li class="em"><a href="mailto:?subject=Currently viewing http://www.dsinatraent.com/&amp;body=Currently viewing http://www.dsinatraent.com/">Email</a></li>
         </ul>

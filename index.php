@@ -88,7 +88,7 @@
                 	<p class="clearfix"><span>Olumilua Yemi</span></p>
                     <p class="clearfix"><span>Queen Globe Pageant 2013</span></p>
                     <a href="gallery3.php" class="big-yellow">Photo Gallery</a>
-                    <a href="pageantry.php" class="big-yellow">Full Details</a>
+                    <a href="news/queen-globe.php" class="big-yellow">Full Details</a>
                 </div>
             </li>
         </ul>
@@ -110,7 +110,7 @@
                 <h2 class="clearfix"><span>Queen Globe Pageant</span></h2>
                 <div class="copy">
                     <p>23 year old University of Benin undergraduate <strong>Olumilua Yemi</strong> from Ekiti State beat other contestants to win the 2013 Queen Globe Beauty pageant, at the Grand Hotel, Asaba.</p>
-                    <p>See <a href="pageantry.php">full details</a> of the event, and ourv<a href="gallery3.php">photo gallery</a> of the contestant on various activities leading up to thew grand finale.</p>
+                    <p>See <a href="news/queen-globe.php">full details</a> of the event, and ourv<a href="gallery3.php">photo gallery</a> of the contestant on various activities leading up to thew grand finale.</p>
                     
                     <!-- 
                     <p><strong>Audition Dates</strong> - Lagos on the 8th July, Abuja on the 9th July. Port Harcourt on the 10th, Benin the 12th and Asaba on the 13th of July 2013.</p>                	

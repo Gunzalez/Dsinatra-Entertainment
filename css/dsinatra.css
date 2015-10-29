@@ -70,17 +70,14 @@ ul#main-nav {
 
 ul#main-nav li {
 	margin: 0;
-	padding: 0;
+	padding: 0 10px;
 	list-style: none;
 	float: left;
 	background-color: #fff;
 }
 
 ul#main-nav li.mn-item-3 {
-	margin-right: 84px;
-}
-ul#main-nav li.mn-item-4 {
-	margin-left: 83px;
+	margin-right: 182px;
 }
 
 
@@ -89,7 +86,7 @@ ul#main-nav li a {
 	text-transform: uppercase;
 	color: #666;
 	display: block;
-	padding: 5px 26px;
+	padding: 5px 0;
 	background-color: transparent;
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -115,7 +112,7 @@ ul#main-nav li span {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 	text-transform: uppercase;
 	margin-top: 4px;
-	width: 70px;
+	width: 100px;
 	background-color: #fff;
 	-webkit-transition: all 1.0s;
 	-moz-transition: all 1.0s;
@@ -972,6 +969,10 @@ address {
 	background: url(../images/googleplus.png) 0 0 no-repeat;
 }
 
+#social-nav li.in a {
+    background: url(../images/instagram.png) 0 0 no-repeat;
+}
+
 #social-nav li.em a {
 	background: url(../images/icon-email.png) 0 0 no-repeat;
 }
@@ -1198,7 +1199,7 @@ address {
 
 #partners ul li {
     display: inline-block;
-    padding: 0 30px;
+    padding: 0 20px;
 }
 
 #partners ul li a img {
