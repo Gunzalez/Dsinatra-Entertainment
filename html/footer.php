@@ -71,7 +71,7 @@
                 data-show-faces="false" 
                 data-font="segoe ui"></div></li>         
 			</ul>            
-            <p><?php include('php/count.php'); ?> visitors</p>            
+<!--            <p>--><?php //include('php/count.php'); ?><!-- visitors</p>            -->
         </div>  
         
     </div>
@@ -80,6 +80,7 @@
     	<div class="centered clearfix"> 
         
         	<ul class="fanchize">
+                <li><a href="news/queen-globe.php"><img src="images/partners/queen-globe-logo.jpg" alt="" /></a></li>
                 <li><a href="http://dsinatraent.com/register/wsnentryform"><img src="images/partners/wsn-logo.jpg" alt="World Supermodel Nigeria" /></a></li>
                 <li><a href="http://www.missteensupermodel.com/" target="_blank"><img src="images/partners/franchize-teensuper-model.png" alt="Super Teen Model" width="239" /></a></li>
                 <li><a href="http://www.worldsupermodelpageant.com/" target="_blank"><img src="images/partners/fanchize-national-directories.jpg" alt="National Directors" /></a></li>
@@ -90,12 +91,15 @@
 
             <ul class="logoRow">
                 <li><a href="https://www.facebook.com/pages/Sna-Fashion/510248735681262?ref=hl" target="_blank"><img src="images/partners/logo-sna-2.jpg" alt="" /></a></li>
-                <li><a href="http://fadan.ng/" target="_blank"><img src="images/partners/FADAN.jpg" alt="" /></a></li>
-                <li><a href="#" target="_blank"><img src="images/partners/gp-foods.png" alt="" /></a></li>
+                <li><a href="http://glitteratiiconic.net/" target="_blank"><img src="images/partners/glitterati.jpg" alt="" /></a></li>
                 <li><a href="http://www.pageshandmade.com" target="_blank"><img src="images/partners/house-of-pagiz.jpg" alt="" /></a></li>
+                <li><a href="http://fadan.ng/" target="_blank"><img src="images/partners/FADAN.jpg" alt="" /></a></li>
                 <li><a href="http://www.maksinshair.com/" target="_blank"><img src="images/partners/logo-maskins.jpg" alt="" /></a></li>
-                <li><a href="#" target="_blank"><img src="images/partners/nnmm.jpg" alt="" /></a></li>
                 <li><a href="https://www.facebook.com/evablazingent" target="_blank"><img src="images/partners/eva-blazing-ent.jpg" alt="" /></a></li>
+
+
+                <!--                <li><a href="#" target="_blank"><img src="images/partners/gp-foods.png" alt="" /></a></li>-->
+                <!--                <li><a href="#" target="_blank"><img src="images/partners/nnmm.jpg" alt="" /></a></li>-->
                 <!--                <li><a href="https://www.facebook.com/pages/Effixzzy-Magazine/305163956261467?fref=ts" target="_blank"><img src="images/partners/logo-effizy.jpg" width="72" height="36" alt="" /> Effizy Magazine <span><br /> Entertainment and lifestyle</span></a></li>-->
                 <!--                <li><a href="https://www.facebook.com/FirstBrightwayVisionLtd" target="_blank"><img src="images/partners/brightways.jpg" width="72" height="36" alt="" /> First Brightways <span><br /> Computers/Technology</span></a></li>-->
                 <!--                <li><a href="#" target="_blank"><img src="images/partners/logo-kevsi.jpg" width="72" height="36" alt="" /></a></li>-->

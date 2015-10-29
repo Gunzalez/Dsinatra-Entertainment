@@ -55,6 +55,15 @@
                 </div>
             </li>
             <li>
+                <img src="images/slideshow/wsp-slide-off.jpg" width="950" height="450">
+                <img src="images/slideshow/wsp-slide.jpg" width="950" height="450" class="imagery">
+                <div class="copy">
+                    <p class="clearfix"><span>World Supermodel Nigeria</span></p>
+                    <a href="pageantry.php" class="big-yellow">Details</a>
+<!--                    <a href="wsn-form.php" class="big-yellow">Entry Form</a>-->
+                </div>
+            </li>
+            <li>
             	<img src="images/slideshow/slide3-off.jpg" width="950" height="450">
                 <img src="images/slideshow/slide3.jpg" width="950" height="450" class="imagery">
                 <div class="copy">
@@ -81,16 +90,16 @@
                     <a href="gallery2.php" class="big-yellow">More images</a>
                 </div>
             </li>
-            <li>
-                <img src="images/slideshow/slide7-off.jpg" width="950" height="450">
-                <img src="images/slideshow/slide7.jpg" width="950" height="450" class="imagery">
-                <div class="copy">
-                	<p class="clearfix"><span>Olumilua Yemi</span></p>
-                    <p class="clearfix"><span>Queen Globe Pageant 2013</span></p>
-                    <a href="gallery3.php" class="big-yellow">Photo Gallery</a>
-                    <a href="news/queen-globe.php" class="big-yellow">Full Details</a>
-                </div>
-            </li>
+<!--            <li>-->
+<!--                <img src="images/slideshow/slide7-off.jpg" width="950" height="450">-->
+<!--                <img src="images/slideshow/slide7.jpg" width="950" height="450" class="imagery">-->
+<!--                <div class="copy">-->
+<!--                	<p class="clearfix"><span>Olumilua Yemi</span></p>-->
+<!--                    <p class="clearfix"><span>Queen Globe Pageant 2013</span></p>-->
+<!--                    <a href="gallery3.php" class="big-yellow">Photo Gallery</a>-->
+<!--                    <a href="news/queen-globe.php" class="big-yellow">Full Details</a>-->
+<!--                </div>-->
+<!--            </li>-->
         </ul>
     </div>
     
@@ -101,8 +110,8 @@
             <div class="content-box">
                 <h2 class="clearfix"><span>Rachel Ikehwame</span></h2>
                 <div class="copy">
-                    <p>Our reigning Miss West Africa International (<a href="gallery.php">See photos</a>)</p>
-                    <p><img src="images/rachel-Ikehwame.jpg" width="196" alt="Rachel Ikehwame" /></p>
+                    <p>Miss West Africa International, see the <a href="gallery.php">photos</a>.</p>
+                    <p><a href="gallery.php" class="image-link"><img src="images/rachel-Ikehwame.jpg" alt="Rachel Ikehwame" /></a></p>
                 </div>
 
             </div>
@@ -110,7 +119,7 @@
                 <h2 class="clearfix"><span>Queen Globe Pageant</span></h2>
                 <div class="copy">
                     <p>23 year old University of Benin undergraduate <strong>Olumilua Yemi</strong> from Ekiti State beat other contestants to win the 2013 Queen Globe Beauty pageant, at the Grand Hotel, Asaba.</p>
-                    <p>See <a href="news/queen-globe.php">full details</a> of the event, and ourv<a href="gallery3.php">photo gallery</a> of the contestant on various activities leading up to thew grand finale.</p>
+                    <p>See <a href="news/queen-globe.php">full details</a> of the event, and our <a href="gallery3.php">photo gallery</a> of the contestant on various activities leading up to thew grand finale.</p>
                     
                     <!-- 
                     <p><strong>Audition Dates</strong> - Lagos on the 8th July, Abuja on the 9th July. Port Harcourt on the 10th, Benin the 12th and Asaba on the 13th of July 2013.</p>                	

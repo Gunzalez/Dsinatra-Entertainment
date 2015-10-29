@@ -1199,7 +1199,7 @@ address {
 
 #partners ul li {
     display: inline-block;
-    padding: 0 20px;
+    padding: 0 17px;
 }
 
 #partners ul li a img {
@@ -1636,6 +1636,14 @@ blockquote {
 	margin-bottom: 2px;
 }
 
+.image-link {
+    display: inline-block;
+    padding: 1px !important;
+}
+
+.image-link img {
+    display: block;
+}
 
 
 

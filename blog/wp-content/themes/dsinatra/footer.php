@@ -55,7 +55,7 @@
                 data-show-faces="false" 
                 data-font="segoe ui"></div></li>
         	</ul>
-            <p><?php include('http://www.dsinatraent.com/php/count.php'); ?> visitors</p>
+<!--            <p>--><?php //include('http://www.dsinatraent.com/php/count.php'); ?><!-- visitors</p>-->
         </div>  
         
     </div>

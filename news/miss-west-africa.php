@@ -152,9 +152,10 @@ if(!d.getElementById(id)){
                 </div>
                 <h2 class="clearfix"><span>Other news</span></h2>
                 <ul class="newslist">
+                    <li><a href="../gallery.php">Rachel Ikehwame - Miss West Africa International</a>.</li>
                 	<li><a href="../gallery2.php">Sophie-Ann Diete-Spiff Miss West Africa Nigeria Photo Gallery</a></li>  
                     <li><a href="JavaScript:html5Lightbox.showLightbox(3, 'http://youtu.be/h5NnFezuAhs', 'MWAN - LYNNXX EDIT');" data-width="880">Watch Miss West African Nigeria <br />- MWAN, LYNNXX EDIT</a></li>
-                    <li><a href="/news/queen-globe.php">Olumilua Yemi from Ekiti State wins the 2013 Queen Globe Beauty pageant.</a></li>
+                    <li><a href="queen-globe.php">Olumilua Yemi from Ekiti State wins the 2013 Queen Globe Beauty pageant.</a></li>
                     <!-- 
                     <li><a href="/form.php">Queen Globe registration begins, register online!</a></li>
                 	<li><a href="JavaScript:html5Lightbox.showLightbox(3, 'http://youtu.be/0_5nB2qJUyE', 'Queen Globe');" data-width="880">Watch the new Queen Globe video for full details.</a></li>                    
@@ -213,34 +214,43 @@ if(!d.getElementById(id)){
                 data-show-faces="false" 
                 data-font="segoe ui"></div></li>           
         	</ul>
-			<p><?php include('http://www.dsinatraent.com/php/count.php'); ?> visitors</p>  
+<!--			<p>--><?php //include('http://www.dsinatraent.com/php/count.php'); ?><!-- visitors</p>  -->
         </div>  
         
     </div>
     
     <div id="partners" class="clearfix"> 
-    	<div class="centered clearfix"> 
-        
-        	<ul class="fanchize clearfix">
-            	<li class="short"><a href="http://www.missglobeinternational.com" target="_blank"><img src="/images/partners/franchize-miss-globe-1.jpg" alt="Miss Queen Globe" width="100" height="100" /></a></li>
-            	<li class="short"><a href="http://www.misswestafrica.com/" target="_blank"><img src="/images/partners/franchize-miss-west-africa.jpg" alt="Miss West Africa Nigeria Franchize" width="100" height="100" /></a></li>
-                <li><a href="http://www.worldsupermodelpageant.com/" target="_blank"><img src="/images/partners/franchize-teensuper-model.png" alt="Super Teen Model" width="239" height="100" /></a></li>
-                <li class="short"><a href="http://www.worldsupermodelpageant.com/" target="_blank"><img src="/images/partners/fanchize-national-directories.jpg" alt="National Directors" width="100" height="100" /></a></li>
-                <li class="short"><a href="http://www.missglobeinternational.com" target="_blank"><img src="/images/partners/franchize-miss-globe-2.jpg" alt="Miss Queen Globe" width="100" height="100" /></a></li>
+    	<div class="centered clearfix">
+
+            <ul class="fanchize">
+                <li><a href="queen-globe.php"><img src="../images/partners/queen-globe-logo.jpg" alt="" /></a></li>
+                <li><a href="http://dsinatraent.com/register/wsnentryform"><img src="../images/partners/wsn-logo.jpg" alt="World Supermodel Nigeria" /></a></li>
+                <li><a href="http://www.missteensupermodel.com/" target="_blank"><img src="../images/partners/franchize-teensuper-model.png" alt="Super Teen Model" width="239" /></a></li>
+                <li><a href="http://www.worldsupermodelpageant.com/" target="_blank"><img src="../images/partners/fanchize-national-directories.jpg" alt="National Directors" /></a></li>
+                <!--                <li class="short"><a href="http://www.missglobeinternational.com" target="_blank"><img src="images/partners/franchize-miss-globe-2.jpg" alt="Miss Queen Globe" width="100" height="100" /></a></li>-->
+                <!--            	<li class="short"><a href="http://www.missglobeinternational.com" target="_blank"><img src="images/partners/franchize-miss-globe-1.jpg" alt="Miss Queen Globe" width="100" height="100" /></a></li>-->
+                <!--            	<li class="short"><a href="http://www.misswestafrica.com/" target="_blank"><img src="images/partners/franchize-miss-west-africa.jpg" alt="Miss West Africa Nigeria Franchize" width="100" height="100" /></a></li>-->
             </ul>
-                      
-            <ul class="logoRow clearfix">
-                <!--<li><a href="https://www.facebook.com/pages/Effixzzy-Magazine/305163956261467?fref=ts" target="_blank"><img src="images/partners/logo-effizy.jpg" width="72" height="36" alt="" /> Effizy Magazine <span><br /> Entertainment and lifestyle</span></a></li>-->
-                <li><a href="https://www.facebook.com/FirstBrightwayVisionLtd" target="_blank"><img src="/images/partners/brightways.jpg" width="72" height="36" alt="" /> First Brightways <span><br /> Computers/Technology</span></a></li>
-                <li><a href="https://www.facebook.com/pages/Sna-Fashion/510248735681262?ref=hl" target="_blank"><img src="/images/partners/logo-sna.jpg" width="72" height="36" alt="" /> SnA Fashion <span><br /> Arts &amp; entertainment</span></a></li>    
-                <!--<li><a href="#" target="_blank"><img src="images/partners/logo-kevsi.jpg" width="72" height="36" alt="" /></a></li>-->
-                <li><a href="https://www.facebook.com/pages/Sapphire-Lounge/156564131909" target="_blank"><img src="/images/partners/logo-r.jpg" width="72" height="36" alt="" /> Reloaded (R) <span><br /> Arts/Entertainment/Nightlife</span></a></li>
-                <li><a href="http://www.maksinshair.com/" target="_blank"><img src="/images/partners/logo-maskins.jpg" width="72" height="36" alt="" /> Maskins Hair <span><br /> Highest quality hair extentions</span></a></li>
-                <li><a href="http://www.pageshandmade.com" target="_blank"><img src="/images/partners/logo-pagiz.jpg" width="72" height="36" alt="" /> PAGIZ <span><br /> www.pageshandmade.com</span></a></li>   
-                <li><a href="http://www.thotsonteesnaija.com" target="_blank"><img src="/images/partners/logo-thotsandtees.jpg" width="72" height="36" alt="" /> THOTSONTEES <span><br /> Self-expression through fashion</span></a></li>                
-                <li><a href="http://www.tribemagnaija.blogspot.co.uk/?m=1" target="_blank"><img src="/images/partners/logo-tribe.jpg" width="72" height="36" alt="" /> TRIBE <span><br /> Self-expression through fashion</span></a></li>
-                <li><a href="http://watchlocker.net/" target="_blank"><img src="/images/partners/logo-locker-watch.jpg" width="72" height="36" alt="" /> Watch Locker <span><br /> Self-expression through fashion</span></a></li>
-                <li><a href="#" target="_blank"><img src="/images/partners/logo-hpz.jpg" width="72" height="36" alt="" /> HPZ <span><br /> Self-expression through fashion</span></a></li>
+
+            <ul class="logoRow">
+                <li><a href="https://www.facebook.com/pages/Sna-Fashion/510248735681262?ref=hl" target="_blank"><img src="../images/partners/logo-sna-2.jpg" alt="" /></a></li>
+                <li><a href="http://glitteratiiconic.net/" target="_blank"><img src="../images/partners/glitterati.jpg" alt="" /></a></li>
+                <li><a href="http://www.pageshandmade.com" target="_blank"><img src="../images/partners/house-of-pagiz.jpg" alt="" /></a></li>
+                <li><a href="http://fadan.ng/" target="_blank"><img src="../images/partners/FADAN.jpg" alt="" /></a></li>
+                <li><a href="http://www.maksinshair.com/" target="_blank"><img src="../images/partners/logo-maskins.jpg" alt="" /></a></li>
+                <li><a href="https://www.facebook.com/evablazingent" target="_blank"><img src="../images/partners/eva-blazing-ent.jpg" alt="" /></a></li>
+
+
+                <!--                <li><a href="#" target="_blank"><img src="images/partners/gp-foods.png" alt="" /></a></li>-->
+                <!--                <li><a href="#" target="_blank"><img src="images/partners/nnmm.jpg" alt="" /></a></li>-->
+                <!--                <li><a href="https://www.facebook.com/pages/Effixzzy-Magazine/305163956261467?fref=ts" target="_blank"><img src="images/partners/logo-effizy.jpg" width="72" height="36" alt="" /> Effizy Magazine <span><br /> Entertainment and lifestyle</span></a></li>-->
+                <!--                <li><a href="https://www.facebook.com/FirstBrightwayVisionLtd" target="_blank"><img src="images/partners/brightways.jpg" width="72" height="36" alt="" /> First Brightways <span><br /> Computers/Technology</span></a></li>-->
+                <!--                <li><a href="#" target="_blank"><img src="images/partners/logo-kevsi.jpg" width="72" height="36" alt="" /></a></li>-->
+                <!--                <li><a href="https://www.facebook.com/pages/Sapphire-Lounge/156564131909" target="_blank"><img src="images/partners/logo-r.jpg" width="72" height="36" alt="" /> Reloaded (R) <span><br /> Arts/Entertainment/Nightlife</span></a></li>-->
+                <!--                <li><a href="http://www.thotsonteesnaija.com" target="_blank"><img src="images/partners/logo-thotsandtees.jpg" width="72" height="36" alt="" /> THOTSONTEES <span><br /> Self-expression through fashion</span></a></li>                -->
+                <!--                <li><a href="http://www.tribemagnaija.blogspot.co.uk/?m=1" target="_blank"><img src="images/partners/logo-tribe.jpg" width="72" height="36" alt="" /> TRIBE <span><br /> Self-expression through fashion</span></a></li>-->
+                <!--                <li><a href="http://watchlocker.net/" target="_blank"><img src="images/partners/logo-locker-watch.jpg" width="72" height="36" alt="" /> Watch Locker <span><br /> Self-expression through fashion</span></a></li>-->
+                <!--                <li><a href="#" target="_blank"><img src="images/partners/logo-hpz.jpg" width="72" height="36" alt="" /> HPZ <span><br /> Self-expression through fashion</span></a></li>-->
             </ul>  
         </div>
     </div>

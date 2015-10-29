@@ -1,13 +1,16 @@
 <?php
-$pagesArr = array("index.php","pageantry.php","blog.php","events.php","gallery.php","about.php","gallery2.php");
+$pagesArr = array("index.php","pageantry.php","blog.php","events.php","gallery.php","about.php","gallery2.php","gallery3.php","gallery4.php");
 function isActive($value1, $value2, $classStr){
 	if($value1 == $value2){
 		return $classStr;	
 	};
 };
 $classStr = ' class="active"';
-$currPage = str_replace('/', '', $_SERVER["SCRIPT_NAME"]);
-// echo $_SERVER["SCRIPT_NAME"]; = '/websites/DSinatra/' or '/pp/dsinatra/' or '/'
+
+$path = $_SERVER["SCRIPT_NAME"];
+$pathArray = explode('/', $path);
+$currPage =  end($pathArray);
+
 ?>
 
 <div id="fb-root"></div>
@@ -34,10 +37,10 @@ if(!d.getElementById(id)){
 <div id="header">    
     <div class="container">
     	<div class="content">
-        <h1><a href="http://www.dsinatraent.com">DSinatra</a></h1>
+        <h1><a href="index.php">DSinatra</a></h1>
         <ul id="main-nav">
             <li class="mn-item-1">
-                <a href="http://www.dsinatraent.com"<?php echo isActive($currPage, $pagesArr[0], $classStr) ?>>
+                <a href="index.php"<?php echo isActive($currPage, $pagesArr[0], $classStr) ?>>
                     <strong>Home</strong>
                     <span>Site<br/>homepage</span>
                 </a>
@@ -49,7 +52,7 @@ if(!d.getElementById(id)){
                 </a>
             </li>
             <li class="mn-item-3">
-                <a href="gallery.php"<?php echo isActive($currPage, $pagesArr[4], $classStr) ?><?php echo isActive($currPage, $pagesArr[6], $classStr) ?>>
+                <a href="gallery.php"<?php echo isActive($currPage, $pagesArr[4], $classStr) ?><?php echo isActive($currPage, $pagesArr[6], $classStr) ?><?php echo isActive($currPage, $pagesArr[7], $classStr) ?><?php echo isActive($currPage, $pagesArr[8], $classStr) ?>>
                     <strong>Gallery</strong>
                     <span>Images and Video</span>
                 </a>

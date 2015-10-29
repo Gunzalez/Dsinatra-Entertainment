@@ -40,13 +40,13 @@
                 <div class="copy">
 
                     <h2>World Supermodel Nigeria</h2>
-                    <p>After the overwhelming success for the past years – D.Sinatra Ent. once again secures the rights (Franchise) as the National Director to host the 2nd Annual World Supermodel Nigeria with a spectacular show planned for <strong>January 10-17, 2016</strong>.</p>
-                        <p><strong>15</strong> stunning models from round the country will storm the city of Asaba, Delta State to compete for the prestigious title of World Supermodel Nigeria and World Teen Supermodel Nigeria.</p>
+                    <p>After the overwhelming success for the past years – D.Sinatra Ent. once again secures the rights (Franchise) as the National Director to host the 2nd Annual World Supermodel Nigeria with a spectacular show planned for January 10-17, 2016.</p>
+                        <p>15 stunning models from round the country will storm the city of Asaba, Delta State to compete for the prestigious title of World Supermodel Nigeria and World Teen Supermodel Nigeria.</p>
 
                     <h2>Host City - Asaba, Host Venue – Best Western Hotel &amp; Spa</h2>
                     <p>We are proud to announce that the overall winner of the 2nd Annual World Supermodel Nigeria production crowned in Asaba, Delta State, Nigeria will receive a 1 year modeling contract with MYTH Model Management - Nigeria!</p>
                     <ul>
-                        <li>She gets to represent Nigeria in South Africa in March 12 -21, competing with other World SuperModel present from their countries for the international title WORLD SUPERMODEL.</li>
+                        <li>She gets to represent Nigeria in <strong>South Africa in March 12 -21</strong>, competing with other World SuperModel present from their countries for the international title WORLD SUPERMODEL.</li>
                         <li>She gets automatic slot into DARE TO DREAM REALITY TV SHOW SERIES showing on DSTV</li>
                         <li>One year wardrobe allowance by Signature Secrets</li>
                         <li>She gets to be featured in one of the Nigeria promising Director movies. AUSTIN FAANI IKECHUKWU</li>
