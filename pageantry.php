@@ -34,14 +34,12 @@
         
             <div class="content-box wide">
             	<div class="header-image">
-                	<img src="images/wsp-big-cover.jpg" width="580" alt="World Supermodel Nigeria" class="imagery" />
-	                <h2 class="clearfix"><span>World Supermodel Nigeria</span></h2>
                 </div>
                 <div class="copy">
-
-                    <h2>World Supermodel Nigeria</h2>
+                    <h2 class="clearfix"><span>World Supermodel Nigeria</span></h2>
                     <p>After the overwhelming success for the past years – D.Sinatra Ent. once again secures the rights (Franchise) as the National Director to host the 2nd Annual World Supermodel Nigeria with a spectacular show planned for January 10-17, 2016.</p>
-                        <p>15 stunning models from round the country will storm the city of Asaba, Delta State to compete for the prestigious title of World Supermodel Nigeria and World Teen Supermodel Nigeria.</p>
+                    <p><img src="images/wsn-banner-large-tumbnail.jpg"></p>
+                    <p>15 stunning models from round the country will storm the city of Asaba, Delta State to compete for the prestigious title of World Supermodel Nigeria and World Teen Supermodel Nigeria.</p>
 
                     <h2>Host City - Asaba, Host Venue – Best Western Hotel &amp; Spa</h2>
                     <p>We are proud to announce that the overall winner of the 2nd Annual World Supermodel Nigeria production crowned in Asaba, Delta State, Nigeria will receive a 1 year modeling contract with MYTH Model Management - Nigeria!</p>

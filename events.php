@@ -46,16 +46,16 @@
                 <h2 class="clearfix"><span>Events Timetable</span></h2>
                 <div class="copy">
                 
-                <h3>2013</h3>                
+                <h3>2016</h3>
                 <ul class="events clearfix">
                 	<li>
                     	<a href="#" class="active">
-                        	<span>23rd</span> <span>February</span>
+                        	<span>17th</span> <span>January</span>
                         	<div class="details">Miss West Africa (Nigeria)</div>
                             <div class="copy">
-                                <div class="img"><img src="images/event-image-west-africa.jpg" alt="Miss World Africa" /></div>
+                                <div class="img"><img src="images/event-image-west-africa.jpg" alt="World Supermodel Nigeria" /></div>
                                 <div class="text">
-                                    <h4>Miss West Africa (Nigeria)</h4>
+                                    <h4>World Supermodel Nigeria</h4>
                                     <p>On the 23rd of Feb 2013 26 contestants gathered at Grand Hotel, Asaba, Delta State for the Miss West Africa Nigeria beauty pageant.</p>                                    
                                     <p><span class="link" data-link="news/story1.php">Full Details</span><!-- / <span class="link" data-link="gallery.php">Gallery Images</span> --></p>                                    
                                 </div>
@@ -120,7 +120,6 @@
                     </li>
                 </ul>
                 <div class="cleft"></div>
-                
                 <div id="details">
                     <div class="inner">
                         <div class="arrow"></div>
@@ -136,6 +135,81 @@
                         </div>
                     </div>
                 </div>
+
+                <h3>2013</h3>
+                <ul class="events clearfix">
+                	<li>
+                    	<a href="#" class="active">
+                        	<span>23rd</span> <span>February</span>
+                        	<div class="details">Miss West Africa (Nigeria)</div>
+                            <div class="copy">
+                                <div class="img"><img src="images/event-image-west-africa.jpg" alt="Miss World Africa" /></div>
+                                <div class="text">
+                                    <h4>Miss West Africa (Nigeria)</h4>
+                                    <p>On the 23rd of Feb 2013 26 contestants gathered at Grand Hotel, Asaba, Delta State for the Miss West Africa Nigeria beauty pageant.</p>
+                                    <p><span class="link" data-link="news/story1.php">Full Details</span><!-- / <span class="link" data-link="gallery.php">Gallery Images</span> --></p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <!--<li>
+                    	<a href="#">
+                            <span>3rd</span> <span>May</span>
+                            <div class="details">All Black Party</div>
+                            <div class="copy">
+                                <div class="img"><img src="images/event-flyer-4.jpg" alt="Miss World Africa" /></div>
+                                <div class="text">
+                                    <h4>All Black Party</h4>
+                                    <p>Details coming soon</p>
+                                    <p>Call on 0808 543 7008 / 0813 430 5586</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>-->
+                    <li>
+                    	<a href="#">
+                            <span>17th</span> <span>August</span>
+                            <div class="details">Queen Globe</div>
+                            <div class="copy">
+                                <div class="img"><img src="images/event-flyer-qg.jpg" alt="Queen Globe" style="padding-top:20px;" /></div>
+                                <div class="text">
+                                    <h4>Queen Globe</h4>
+                                    <p>On the 17th Augist 2013 Dsinatra presents the Queen Globe event at the Grand Hotel, Asaba, Delta State.</p>
+                                    <p><span class="link" data-link="pageantry.php">Full Details</span> / <span class="link" data-link="gallery.php">Gallery Images</span></p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="#">
+                            <span>5th</span> <span>October</span>
+                            <div class="details">Pyjamar Party</div>
+                            <div class="copy">
+                                <div class="img"><img src="images/event-flyer-3.jpg" alt="Miss World Africa" /></div>
+                                <div class="text">
+                                    <h4>Pyjamar Party</h4>
+                                    <p>Details coming soon</p>
+                                    <p>Call on 0808 543 7008 / 0813 430 5586</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="#">
+                            <span>6th</span> <span>December</span>
+                            <div class="details">Carnival on the Niger</div>
+                            <div class="copy">
+                                <div class="img"><img src="images/event-flyer-3.jpg" alt="Miss World Africa" /></div>
+                                <div class="text">
+                                    <h4>Carnival on the Niger</h4>
+                                    <p>Details coming soon</p>
+                                    <p>Call on 0808 543 7008 / 0813 430 5586</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <div class="cleft"></div>
                 
                 <h3>2012</h3>                
                 <ul class="events">

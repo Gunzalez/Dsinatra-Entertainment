@@ -111,7 +111,10 @@
                 <h2 class="clearfix"><span>World Supermodel Nigeria</span></h2>
                 <div class="copy">
                     <p>This is to formally introduce an event tagged “World Supermodel Nigeria” - WSN2015 scheduled to hold <strong>17th January, 2016</strong> in the prestigious State Capital, Asaba.</p>
-                    <p><a href="gallery.php" class="image-link"><img src="images/wsn-nigeria-pink.jpg" alt="World Supermodel Nigeria" /></a></p>
+                    <p><a href="pageantry.php" class="image-link"><img src="images/wsn-nigeria-pink.jpg" alt="World Supermodel Nigeria" /></a>
+
+
+                    </p>
                 </div>
 
             </div>
