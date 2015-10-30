@@ -70,7 +70,7 @@
                 </div>
                 <h2 class="clearfix"><span>Other news</span></h2>
                 <ul class="newslist">
-                    <li><a href="gallery.php">Rachel Ikehwame - Miss West Africa International</a>.</li>
+                    <li><a href="gallery.php">Rachel Ikehwame - Dsinatra queen</a>.</li>
                 	<li><a href="news/queen-globe.php">Miss Olumilua Yemi - Queen Globe Beauty Pageant 2013</a></li>
                     <li><a href="JavaScript:html5Lightbox.showLightbox(3, 'http://youtu.be/h5NnFezuAhs', 'MWAN - LYNNXX EDIT');" data-width="880">Watch Miss West African Nigeria <br />- MWAN, LYNNXX EDIT</a></li>
                     <!--

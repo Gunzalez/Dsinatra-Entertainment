@@ -1638,7 +1638,7 @@ blockquote {
 
 .image-link {
     display: inline-block;
-    padding: 1px !important;
+    padding: 0 !important;
 }
 
 .image-link img {

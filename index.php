@@ -50,7 +50,7 @@
                 <img src="images/slideshow/slide-rachel-on.jpg" width="950" height="450" class="imagery">
                 <div class="copy">
                     <p class="clearfix"><span>Rachel Ikehwame</span></p>
-                    <p class="clearfix"><span>Miss West Africa Int.</span></p>
+                    <p class="clearfix"><span>Dsinatra Queen</span></p>
                     <a href="gallery.php" class="big-yellow">New Photos!</a>
                 </div>
             </li>
@@ -108,10 +108,10 @@
     <div class="content">
     	<div class="centered clearfix">
             <div class="content-box">
-                <h2 class="clearfix"><span>Rachel Ikehwame</span></h2>
+                <h2 class="clearfix"><span>World Supermodel Nigeria</span></h2>
                 <div class="copy">
-                    <p>Miss West Africa International, see the <a href="gallery.php">photos</a>.</p>
-                    <p><a href="gallery.php" class="image-link"><img src="images/rachel-Ikehwame.jpg" alt="Rachel Ikehwame" /></a></p>
+                    <p>This is to formally introduce an event tagged “World Supermodel Nigeria” - WSN2015 scheduled to hold <strong>17th January, 2016</strong> in the prestigious State Capital, Asaba.</p>
+                    <p><a href="gallery.php" class="image-link"><img src="images/wsn-nigeria-pink.jpg" alt="World Supermodel Nigeria" /></a></p>
                 </div>
 
             </div>
@@ -134,7 +134,7 @@
                 <h2 class="clearfix"><span>Latest News</span></h2>
                 <div class="copy">
                     <ul class="newslist">
-                    	<li><a href="gallery.php">Rachel Ikehwame - Miss West Africa International</a>.</li>
+                    	<li><a href="gallery.php">Rachel Ikehwame - Dsinatra queen</a>.</li>
                     	<li><a href="gallery4.php">New Photos from our Queens of Nigeria</a>.</li>
                         <li><a href="gallery3.php">Olumilua Yemi - Queen Globe Pageant 2013 Photo Gallery</a>.</li>
                         <li><a href="news/miss-west-africa.php">Sophie-Ann Diete Spiff - Miss West Africa Nigeria</a>.</li>

@@ -48,7 +48,7 @@
     
     	<div class="content-box">
         	<p>A Word From Our Proprietor</p>
-        	<blockquote><span class="bqstart">&#8220;</span>D.Sinatra is a professional event company, our forte is providing entertainment, event management and promoting fahsion and life style.
+        	<blockquote><span class="bqstart">&#8220;</span>D.Sinatra is a professional event company, our forte is providing entertainment, event management and promoting fashion and life style.
             <br /><br />We have undoubtedly grown from strength to strength since our incorporation in June 18, 2010.<span class="bqend">&#8221;</span></blockquote>
         </div>
         
@@ -90,9 +90,9 @@
             </ul>
 
             <ul class="logoRow">
-                <li><a href="https://www.facebook.com/pages/Sna-Fashion/510248735681262?ref=hl" target="_blank"><img src="images/partners/logo-sna-2.jpg" alt="" /></a></li>
-                <li><a href="http://glitteratiiconic.net/" target="_blank"><img src="images/partners/glitterati.jpg" alt="" /></a></li>
                 <li><a href="http://www.pageshandmade.com" target="_blank"><img src="images/partners/house-of-pagiz.jpg" alt="" /></a></li>
+                <li><a href="https://www.facebook.com/pages/Sna-Fashion/510248735681262?ref=hl" target="_blank"><img src="images/partners/sna-logo.jpg" alt="" /></a></li>
+                <li><a href="http://glitteratiiconic.net/" target="_blank"><img src="images/partners/glitterati.jpg" alt="" /></a></li>
                 <li><a href="http://fadan.ng/" target="_blank"><img src="images/partners/FADAN.jpg" alt="" /></a></li>
                 <li><a href="http://www.maksinshair.com/" target="_blank"><img src="images/partners/logo-maskins.jpg" alt="" /></a></li>
                 <li><a href="https://www.facebook.com/evablazingent" target="_blank"><img src="images/partners/eva-blazing-ent.jpg" alt="" /></a></li>

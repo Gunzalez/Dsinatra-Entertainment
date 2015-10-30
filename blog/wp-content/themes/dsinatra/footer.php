@@ -32,7 +32,7 @@
         
         <div class="content-box">
         	<p>A Word From Our Proprietor</p>
-        	<blockquote><span class="bqstart">&#8220;</span>D.Sinatra is a professional event company, our forte is providing entertainment, event management and promoting fahsion and life style.
+        	<blockquote><span class="bqstart">&#8220;</span>D.Sinatra is a professional event company, our forte is providing entertainment, event management and promoting fashion and life style.
             <br /><br />We have undoubtedly grown from strength to strength since our incorporation in June 18, 2010.<span class="bqend">&#8221;</span></blockquote>
         </div> 
         
