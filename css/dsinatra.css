@@ -322,7 +322,7 @@ ul#main-nav li a.active span {
 }
 
 .content-box h2 {
-	font-weight: normal;
+	/*font-weight: normal;*/
 	margin: 0;
 	padding-bottom: 10px;
 }
@@ -1643,6 +1643,59 @@ blockquote {
 
 .image-link img {
     display: block;
+}
+
+.visitors .value {
+    display: block;
+    text-align: center;
+    padding: 8px 12px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    color: #666666;
+    background-color: #ffffff;
+}
+
+.visitors .label {
+    display: block;
+    margin-top: 5px;
+    font-size: 13px;
+    text-align: center;
+    padding: 2px 5px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: #000000;
+    background-color: #f8c301;
+}
+
+#content a.more-button {
+    float: right;
+    font-size: 0.9em;
+    padding: 4px 8px;
+    display: block;
+    font-weight: normal;
+}
+.newItem {
+    position: relative;
+    overflow: visible;
+}
+.red-dot {
+    width: 18px !important;
+    height: 18px !important;
+    border-radius: 50% !important;
+    background-color: #f8c301 !important;
+    position: absolute !important;
+    top: -5px !important;
+    right: -5px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #ffffff;
+}
+
+.shout {
+    font-size: 1.5em !important;
+    padding: 5px !important;
+    font-weight: bold;
 }
 
 

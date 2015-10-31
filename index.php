@@ -49,7 +49,7 @@
                 <img src="images/slideshow/slide-rachel-off.jpg" width="950" height="450">
                 <img src="images/slideshow/slide-rachel-on.jpg" width="950" height="450" class="imagery">
                 <div class="copy">
-                    <p class="clearfix"><span>Rachel Ikehwame</span></p>
+                    <p class="clearfix"><span>Miss Rachel Ikehwame</span></p>
                     <p class="clearfix"><span>Dsinatra Queen</span></p>
                     <a href="gallery.php" class="big-yellow">New Photos!</a>
                 </div>
@@ -137,7 +137,7 @@
                 <h2 class="clearfix"><span>Latest News</span></h2>
                 <div class="copy">
                     <ul class="newslist">
-                    	<li><a href="gallery.php">Rachel Ikehwame - Dsinatra queen</a>.</li>
+                    	<li><a href="gallery.php">Miss Rachel Ikehwame<br/> - Dsinatra queen</a>.</li>
                     	<li><a href="gallery4.php">New Photos from our Queens of Nigeria</a>.</li>
                         <li><a href="gallery3.php">Olumilua Yemi - Queen Globe Pageant 2013 Photo Gallery</a>.</li>
                         <li><a href="news/miss-west-africa.php">Sophie-Ann Diete Spiff - Miss West Africa Nigeria</a>.</li>

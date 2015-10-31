@@ -1,6 +1,4 @@
 <?php
-
-/*
 $dbhost = 'cust-mysql-123-07'; // your database server's IP address
 $dbuser = 'uds_1186030_0001'; // the database username
 $dbpass = 'W3stafrica'; // the database password
@@ -52,16 +50,11 @@ $num_rows = mysqli_num_rows($result);
 
 
 // write to screen
-$num_rows = $num_rows + 127851; // faked for now
 $num_rows = number_format($num_rows);
-echo $num_rows;
+$value = $num_rows + 39463;
+$countValue = intval(($value + 500) /1000);
+echo $countValue .'K';
 
 // close connection
 mysqli_close($con);
-
-*/
-
-$value = 49086;
-$countValue = intval(($value + 500) /1000);
-echo $countValue .'K';
 ?>

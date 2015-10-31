@@ -52,7 +52,7 @@
                 	<li><a href="gallery/welcome-party.php" id="welcome-party">Welcome Party Hosted by Whistle Lounge, Asaba on Day1 in Camp.</a></li>
                 </ul>
                 <p class="more-galleries">
-                    <a href="gallery.php">Rachel Ikehwame - Dsinatra Queen</a>
+                    <a href="gallery.php">Rachel Ikehwame - Dsinatra queen</a>
                     <a href="gallery4.php">Queens of Nigerian</a>
                 	<a href="gallery2.php">Miss West Africa Nigeria Photos</a>
                 </p>    

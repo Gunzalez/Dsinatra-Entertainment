@@ -35,7 +35,7 @@
     	<div class="centered clearfix">
             
             <div class="content-box wide"> 
-                <h2 class="clearfix"><span>Rachel Ikehwame - Dsinatra Queen</span></h2>
+                <h2 class="clearfix"><span>Miss Rachel Ikehwame - Dsinatra queen</span></h2>
                 <div id="photos" class="copy galleries">
                     
 				<?php require_once('gallery/rachel-ikehwame.php'); ?>

@@ -152,7 +152,7 @@ if(!d.getElementById(id)){
                 </div>
                 <h2 class="clearfix"><span>Other news</span></h2>
                 <ul class="newslist">
-                    <li><a href="../gallery.php">Rachel Ikehwame - Dsinatra queen</a>.</li>
+                    <li><a href="../gallery.php">Miss Rachel Ikehwame<br/> - Dsinatra queen</a></li>
                 	<li><a href="../gallery2.php">Sophie-Ann Diete-Spiff Miss West Africa Nigeria Photo Gallery</a></li>  
                     <li><a href="JavaScript:html5Lightbox.showLightbox(3, 'http://youtu.be/h5NnFezuAhs', 'MWAN - LYNNXX EDIT');" data-width="880">Watch Miss West African Nigeria <br />- MWAN, LYNNXX EDIT</a></li>
                     <li><a href="queen-globe.php">Olumilua Yemi from Ekiti State wins the 2013 Queen Globe Beauty pageant.</a></li>
@@ -212,9 +212,15 @@ if(!d.getElementById(id)){
                 data-width="50"
                 data-layout="box_count"
                 data-show-faces="false" 
-                data-font="segoe ui"></div></li>           
+                data-font="segoe ui"></div></li>
+                <li>
+                    <div class="visitors">
+                        <span class="value"><?php include('../php/count.php'); ?></span>
+                        <span class="label">visitors</span>
+                    </div>
+                </li>
         	</ul>
-<!--			<p>--><?php //include('http://www.dsinatraent.com/php/count.php'); ?><!-- visitors</p>  -->
+
         </div>  
         
     </div>

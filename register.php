@@ -37,23 +37,39 @@
                 </div>
                 <div class="copy">
                     <h2 class="clearfix">
-                        <span>World Supermodel Nigeria</span>
-                        <a class="more-button" href="pageantry-more.php">More ></a>
+                        <span>Registration - Contestant Criteria</span>
+                        <a class="more-button" href="entry-form.php">Entry form ></a>
                     </h2>
-                    <p>After the overwhelming success for the past years – D.Sinatra Ent. once again secures the rights (Franchise) as the National Director to host the 2nd Annual World Supermodel Nigeria with a spectacular show planned for January 10-17, 2016.</p>
-                    <p><img src="images/wsn-banner-large-tumbnail.jpg"></p>
-                    <p>15 stunning models from round the country will storm the city of Asaba, Delta State to compete for the prestigious title of World Supermodel Nigeria and World Teen Supermodel Nigeria.</p>
+                    <br>
+                    <span class="bqstart">“</span><p class="shout">Do you possess unique physical beauty?<br />Is keeping fit and healthy a priority?<br /> Are you motivated and driven to succeed and is your ambition tempered by a desire to help others with honesty and integrity whilst setting high standards as World Supermodel Nigeria or Teen World Supermodel Nigeria?</p>
+                        <span class="bqend">”</span>
 
-                    <h2>Host City - Asaba, Host Venue – Best Western Hotel &amp; Spa</h2>
-                    <p>We are proud to announce that the overall winner of the 2nd Annual World Supermodel Nigeria production crowned in Asaba, Delta State, Nigeria will receive a 1 year modeling contract with MYTH Model Management - Nigeria!</p>
+
+                    <h2 style="text-align: right; padding-right: 50px; padding-bottom: 20px;">- Then this event is for you!</h2>
+                    <p>However to satisfy the entry criteria you must:</p>
                     <ul>
-                        <li>She gets to represent Nigeria in <strong>South Africa in March 12 -21</strong>, competing with other World SuperModel present from their countries for the international title WORLD SUPERMODEL.</li>
-                        <li>She gets automatic slot into DARE TO DREAM REALITY TV SHOW SERIES showing on DSTV</li>
-                        <li>One year wardrobe allowance by Signature Secrets</li>
-                        <li>She gets to be featured in one of the Nigeria promising Director movies. AUSTIN FAANI IKECHUKWU</li>
-                        <li>She gets national recognized by FADAN - Fashion Designers Association of Nigeria</li>
+                        <li>be a Citizen or Resident for 6 months of Nigeria</li>
+                        <li>hold a valid passport or be eligible to hold one</li>
+                        <li>be 16 years old before the 1st of January in the year of contest</li>
+                        <li>be 30 years old after the 31st of December in the year of contest</li>
+                        <li>be 170cm or taller</li>
+                        <li>be a person who was born female</li>
+                        <li>be a person who enjoys travelling</li>
+                        <li>must not be pregnant or have given birth</li>
+                        <li>be a person who has never been married or is not engaged to be married; and</li>
+                        <li>has never been through any ceremony either valid or invalid and whether civil, religious or tribal which is recognised as a marriage ceremony in any part of Nigeria/World</li>
+                        <li>Have good communication skills and enjoy talking to people</li>
+                        <li>be able to demonstrate a high standard in public speaking</li>
+                        <li>have a strong commitment in the pursuit of excellence</li>
+                        <li>be a person of good character, possess charm, poise and personality and be fit and healthy</li>
+                        <li>be a person who wants to be a Supermodel and who has modeling experience</li>
+                        <li>have a strong desire to represent Nigeria</li>
+                        <li>be an ambassador overseas as well as at in International events</li>
                     </ul>
-                        <p>*Same freebies apply to the winner of the Miss Teen SuperModel Nigeria 2015.</p>
+                    <p>Please see <a href="rule-and-conditions.php">rule and conditions</a> of entry.</p>
+                    <p>Find the <a href="entry-form.php">entry form</a> here.</p>
+
+
                 </div>
             </div>
             
@@ -71,7 +87,7 @@
                 </div>
                 <h2 class="clearfix"><span>Other news</span></h2>
                 <ul class="newslist">
-                    <li><a href="gallery.php">Miss Rachel Ikehwame<br/> - Dsinatra queen</a>.</li>
+                    <li><a href="gallery.php">Miss Rachel Ikehwame<br/> - Dsinatra queen</a></li>
                 	<li><a href="news/queen-globe.php">Miss Olumilua Yemi - Queen Globe Beauty Pageant 2013</a></li>
                     <li><a href="JavaScript:html5Lightbox.showLightbox(3, 'http://youtu.be/h5NnFezuAhs', 'MWAN - LYNNXX EDIT');" data-width="880">Watch Miss West African Nigeria <br />- MWAN, LYNNXX EDIT</a></li>
                     <!--

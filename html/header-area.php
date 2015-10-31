@@ -1,5 +1,5 @@
 <?php
-$pagesArr = array("index.php","pageantry.php","blog.php","events.php","gallery.php","about.php","gallery2.php","gallery3.php","gallery4.php");
+$pagesArr = array("index.php","pageantry.php","registration.php","events.php","gallery.php","about.php","gallery2.php","gallery3.php","gallery4.php");
 function isActive($value1, $value2, $classStr){
 	if($value1 == $value2){
 		return $classStr;	
@@ -62,19 +62,20 @@ if(!d.getElementById(id)){
                     <strong>Events</strong>
                     <span>Past, Present and Future</span>
                 </a>
-            </li>  
-            <li class="mn-item-5">
-                <a href="http://www.dsinatraent.com/blog/"<?php echo isActive($currPage, $pagesArr[2], $classStr) ?>>
-                    <strong>Blog</strong>
-                    <span>What people are saying</span>
-                </a>
-            </li>  
+            </li>
             <li class="mn-item-6">
                 <a href="about.php"<?php echo isActive($currPage, $pagesArr[5], $classStr) ?>>
                     <strong>About</strong>
                     <span>D-Sinatra Entertainment</span>
                 </a>
-            </li>    
+            </li>
+            <li class="mn-item-5 newItem">
+                <span class="red-dot" title="New!"></span>
+                <a href="register.php"<?php echo isActive($currPage, $pagesArr[2], $classStr) ?>>
+                    <strong>Register</strong>
+                    <span>Contestant Criteria</span>
+                </a>
+            </li>
         </ul>
         <div id="phone-numbers">
             <p><strong>+234&nbsp;705&nbsp;077&nbsp;8749 &nbsp;&nbsp; +234&nbsp;803&nbsp;764&nbsp;6093 &nbsp;&nbsp; +234&nbsp;808&nbsp;543&nbsp;7008</strong></p>

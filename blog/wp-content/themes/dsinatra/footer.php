@@ -54,8 +54,13 @@
                 data-layout="box_count"
                 data-show-faces="false" 
                 data-font="segoe ui"></div></li>
+                <li>
+                    <div class="visitors">
+                        <span class="value"><?php include('php/count.php'); ?></span>
+                        <span class="label">visitors</span>
+                    </div>
+                </li>
         	</ul>
-<!--            <p>--><?php //include('http://www.dsinatraent.com/php/count.php'); ?><!-- visitors</p>-->
         </div>  
         
     </div>

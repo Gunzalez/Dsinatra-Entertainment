@@ -55,23 +55,29 @@
         <div class="content-box">
             <p class="small-print">&copy; 2015 DSINATRA ENTERTAINMENT.<br />All Rights Reserved.</p>
             <ul class="social-footer clearfix">
-            
-            <li class="like-tw"><a href="https://twitter.com/share" 
-                class="twitter-share-button" 
-                data-url="http://www.dsinatraent.com"
-                data-related="D.Sinatra.Ent."
-                data-text="D.Sinatra Entertainment"
-                data-lang="en" 
-                data-count="vertical">Tweet</a></li> 
-            <li class="like-fb"><div class="fb-like" 
-                data-href="http://www.dsinatraent.com" 
-                data-send="false" 
-                data-width="50"
-                data-layout="box_count"
-                data-show-faces="false" 
-                data-font="segoe ui"></div></li>         
-			</ul>            
-<!--            <p>--><?php //include('php/count.php'); ?><!-- visitors</p>            -->
+                <li class="like-tw"><a href="https://twitter.com/share"
+                    class="twitter-share-button"
+                    data-url="http://www.dsinatraent.com"
+                    data-related="D.Sinatra.Ent."
+                    data-text="D.Sinatra Entertainment"
+                    data-lang="en"
+                    data-count="vertical">Tweet</a>
+                </li>
+                <li class="like-fb"><div class="fb-like"
+                    data-href="http://www.dsinatraent.com"
+                    data-send="false"
+                    data-width="50"
+                    data-layout="box_count"
+                    data-show-faces="false"
+                    data-font="segoe ui"></div>
+                </li>
+                <li>
+                    <div class="visitors">
+                        <span class="value"><?php include('php/count.php'); ?></span>
+                        <span class="label">visitors</span>
+                    </div>
+                </li>
+			</ul>
         </div>  
         
     </div>
