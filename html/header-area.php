@@ -1,5 +1,17 @@
 <?php
-$pagesArr = array("index.php","pageantry.php","registration.php","events.php","gallery.php","about.php","gallery2.php","gallery3.php","gallery4.php");
+$pagesArr = array(
+    "index.php",
+    "pageantry.php",
+    "register.php",
+    "events.php",
+    "gallery.php",
+    "about.php",
+    "gallery2.php",
+    "gallery3.php",
+    "gallery4.php",
+    "entry-form.php",
+    "judging.php"
+);
 function isActive($value1, $value2, $classStr){
 	if($value1 == $value2){
 		return $classStr;	
@@ -70,8 +82,8 @@ if(!d.getElementById(id)){
                 </a>
             </li>
             <li class="mn-item-5 newItem">
-                <span class="red-dot" title="New!"></span>
-                <a href="register.php"<?php echo isActive($currPage, $pagesArr[2], $classStr) ?>>
+                <span class="red-dot" title="New!"> New</span>
+                <a href="register.php"<?php echo isActive($currPage, $pagesArr[2], $classStr) ?><?php echo isActive($currPage, $pagesArr[9], $classStr); ?><?php echo isActive($currPage, $pagesArr[10], $classStr); ?>>
                     <strong>Register</strong>
                     <span>Contestant Criteria</span>
                 </a>

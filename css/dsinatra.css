@@ -1679,17 +1679,22 @@ blockquote {
     position: relative;
     overflow: visible;
 }
+
+@keyframes blinker {
+    50% { opacity: 0.0; }
+}
+
 .red-dot {
-    width: 18px !important;
-    height: 18px !important;
-    border-radius: 50% !important;
-    background-color: #f8c301 !important;
+    width: 32px !important;
+    padding: 2px 4px !important;
     position: absolute !important;
-    top: -5px !important;
-    right: -5px !important;
+    top: 0 !important;
+    right: 0 !important;
     margin: 0 !important;
     padding: 0 !important;
-    color: #ffffff;
+    color: #000000 !important;
+    font-weight: bold;
+    animation: blinker 2s linear infinite;
 }
 
 .shout {
@@ -1697,6 +1702,40 @@ blockquote {
     padding: 5px !important;
     font-weight: bold;
 }
+
+
+.sub-page-nav {
+    border-top: 1px solid #cccccc;
+    padding: 5px 0 20px 0;
+}
+
+.sub-page-nav ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sub-page-nav ul li {
+    float: left;
+    padding-right: 3px;
+}
+
+.sub-page-nav ul li a {
+    display:  block;
+    padding: 8px 10px !important;
+    background-color: transparent !important;
+    border-bottom: 2px solid #f8c301;
+}
+
+.sub-page-nav ul li a:hover {
+    border-bottom: 2px solid #ffffff;
+}
+
+.sub-page-nav ul li a.current-page {
+    border-bottom: 2px solid #ffffff;
+}
+
 
 
 

@@ -53,7 +53,7 @@ $num_rows = mysqli_num_rows($result);
 $num_rows = number_format($num_rows);
 $value = $num_rows + 39463;
 $countValue = intval(($value + 500) /1000);
-echo $countValue .'K';
+echo $countValue .'K+';
 
 // close connection
 mysqli_close($con);

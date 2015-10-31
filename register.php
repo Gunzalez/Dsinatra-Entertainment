@@ -33,14 +33,17 @@
     	<div class="centered clearfix">
         
             <div class="content-box wide">
-            	<div class="header-image">
-                </div>
                 <div class="copy">
                     <h2 class="clearfix">
-                        <span>Registration - Contestant Criteria</span>
-                        <a class="more-button" href="entry-form.php">Entry form ></a>
+                        <span>Register - Contestant criteria</span>
                     </h2>
-                    <br>
+                    <div class="sub-page-nav clearfix">
+                        <ul>
+                            <li><a class="current-page">Contestant criteria</a></li>
+                            <li><a href="judging.php">Judging criteria</a></li>
+                            <li><a href="entry-form.php">Application form</a></li>
+                        </ul>
+                    </div>
                     <span class="bqstart">“</span><p class="shout">Do you possess unique physical beauty?<br />Is keeping fit and healthy a priority?<br /> Are you motivated and driven to succeed and is your ambition tempered by a desire to help others with honesty and integrity whilst setting high standards as World Supermodel Nigeria or Teen World Supermodel Nigeria?</p>
                         <span class="bqend">”</span>
 
@@ -48,7 +51,7 @@
                     <h2 style="text-align: right; padding-right: 50px; padding-bottom: 20px;">- Then this event is for you!</h2>
                     <p>However to satisfy the entry criteria you must:</p>
                     <ul>
-                        <li>be a Citizen or Resident for 6 months of Nigeria</li>
+                        <li>have been a citizen or resident of Nigeria for 6 months</li>
                         <li>hold a valid passport or be eligible to hold one</li>
                         <li>be 16 years old before the 1st of January in the year of contest</li>
                         <li>be 30 years old after the 31st of December in the year of contest</li>
@@ -58,16 +61,15 @@
                         <li>must not be pregnant or have given birth</li>
                         <li>be a person who has never been married or is not engaged to be married; and</li>
                         <li>has never been through any ceremony either valid or invalid and whether civil, religious or tribal which is recognised as a marriage ceremony in any part of Nigeria/World</li>
-                        <li>Have good communication skills and enjoy talking to people</li>
-                        <li>be able to demonstrate a high standard in public speaking</li>
+                        <li>have good communication skills and enjoy talking to people</li>
+                        <li>be able to demonstrate a high standard of public speaking</li>
                         <li>have a strong commitment in the pursuit of excellence</li>
                         <li>be a person of good character, possess charm, poise and personality and be fit and healthy</li>
-                        <li>be a person who wants to be a Supermodel and who has modeling experience</li>
+                        <li>be a person who wants to be a supermodel and who has modeling experience</li>
                         <li>have a strong desire to represent Nigeria</li>
-                        <li>be an ambassador overseas as well as at in International events</li>
+                        <li>be willing to be an ambassador overseas as well as at international events</li>
                     </ul>
                     <p>Please see <a href="rule-and-conditions.php">rule and conditions</a> of entry.</p>
-                    <p>Find the <a href="entry-form.php">entry form</a> here.</p>
 
 
                 </div>

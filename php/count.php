@@ -63,5 +63,5 @@ mysqli_close($con);
 
 $value = 49086;
 $countValue = intval(($value + 500) /1000);
-echo $countValue .'K';
+echo $countValue .'K+';
 ?>

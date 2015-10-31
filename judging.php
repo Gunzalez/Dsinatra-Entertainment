@@ -33,27 +33,54 @@
     	<div class="centered clearfix">
         
             <div class="content-box wide">
-            	<div class="header-image">
-                </div>
                 <div class="copy">
                     <h2 class="clearfix">
-                        <span>World Supermodel Nigeria</span>
-                        <a class="more-button" href="pageantry-more.php">More</a>
+                        <span>Register - Judging criteria</span>
                     </h2>
-                    <p>After the overwhelming success for the past years – D.Sinatra Ent. once again secures the rights (Franchise) as the National Director to host the 2nd Annual World Supermodel Nigeria with a spectacular show planned for January 10-17, 2016.</p>
-                    <p><img src="images/wsn-banner-large-tumbnail.jpg"></p>
-                    <p>15 stunning models from round the country will storm the city of Asaba, Delta State to compete for the prestigious title of World Supermodel Nigeria and World Teen Supermodel Nigeria.</p>
+                    <div class="sub-page-nav clearfix">
+                        <ul>
+                            <li><a href="register.php">Contestant criteria</a></li>
+                            <li><a class="current-page">Judging criteria</a></li>
+                            <li><a href="entry-form.php">Application form</a></li>
+                        </ul>
+                    </div>
 
-                    <h2>Host City - Asaba, Host Venue – Best Western Hotel &amp; Spa</h2>
-                    <p>We are proud to announce that the overall winner of the 2nd Annual World Supermodel Nigeria production crowned in Asaba, Delta State, Nigeria will receive a 1 year modeling contract with MYTH Model Management - Nigeria!</p>
+
+                    <h2>The World Supermodel Nigeria contestants will be judged in the traditional style and will cover the following areas:</h2>
+                    <ol>
+                        <li>
+                            <h3>Personal Interviews</h3>
+                            <p>Delegates will be interviewed by each of the high profile Guest Judge’s. This will be the first chance for the Judges to meet and greet the Delegates (dressed in their choice of casual clothing) in a CLOSED (to the public) environment.</p>
+                        </li>
+                        <li>
+                            <h3>Evening Gown</h3>
+                            <p>Evening Gown will be judged on the Design and Craftsmanship of the Garment and 20 seconds to explain what they are wearing and who designed their evening gown. Delegates need to demonstrate their poise and grace whilst in Formal Wear. Marks will be awarded on the Delegates ability to present their Formal Wear</p>
+                        </li>
+                        <li>
+                            <h3>Swimwear</h3>
+                            <p>The Swimwear category will be judged and marks scored will be based on the Presentation, Cut and Style of the fabric. The entrants will be escorted one by one to a designated area, where they will introduce themselves in front of a panel of judges before leaving.</p>
+                        </li>
+                        <li>
+                            <h3>Photographic Portfolio</h3>
+                            <p>This Category is judged during the production by our team of photographers where the Delegates will have the chance to demonstrate their ability to present themselves in front of camera</p>
+                        </li>
+                    </ol>
+
+
+                    <h2>AWARDS will be awarded in the following Category’s</h2>
                     <ul>
-                        <li>She gets to represent Nigeria in <strong>South Africa in March 12 -21</strong>, competing with other World SuperModel present from their countries for the international title WORLD SUPERMODEL.</li>
-                        <li>She gets automatic slot into DARE TO DREAM REALITY TV SHOW SERIES showing on DSTV</li>
-                        <li>One year wardrobe allowance by Signature Secrets</li>
-                        <li>She gets to be featured in one of the Nigeria promising Director movies. AUSTIN FAANI IKECHUKWU</li>
-                        <li>She gets national recognized by FADAN - Fashion Designers Association of Nigeria</li>
+                        <li>Winners-World Supermodel Nigeria, World Teen Supermodel Nigeria</li>
+                        <li>Runner-up</li>
+                        <li>Second Runner-up</li>
+                        <li>Miss Congeniality</li>
+                        <li>Miss Photogenic</li>
+                        <li>Best Evening Gown</li>
+                        <li>Best Swimwear</li>
                     </ul>
-                        <p>*Same freebies apply to the winner of the Miss Teen SuperModel Nigeria 2015.</p>
+
+                    <p>Please see <a href="rule-and-conditions.php">rule and conditions</a> of entry.</p>
+
+
                 </div>
             </div>
             
@@ -71,7 +98,7 @@
                 </div>
                 <h2 class="clearfix"><span>Other news</span></h2>
                 <ul class="newslist">
-                    <li><a href="gallery.php">Miss Rachel Ikehwame<br/> - Dsinatra queen</a>.</li>
+                    <li><a href="gallery.php">Miss Rachel Ikehwame<br/> - Dsinatra queen</a></li>
                 	<li><a href="news/queen-globe.php">Miss Olumilua Yemi - Queen Globe Beauty Pageant 2013</a></li>
                     <li><a href="JavaScript:html5Lightbox.showLightbox(3, 'http://youtu.be/h5NnFezuAhs', 'MWAN - LYNNXX EDIT');" data-width="880">Watch Miss West African Nigeria <br />- MWAN, LYNNXX EDIT</a></li>
                     <!--

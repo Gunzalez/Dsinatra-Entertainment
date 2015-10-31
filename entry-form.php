@@ -33,7 +33,16 @@
     	<div class="centered clearfix">
         
             <div class="content-box wide"> 
-            	<h2 class="clearfix"><span>World Supermodel Nigeria entry form</span></h2>
+            	<h2 class="clearfix">
+                    <span>Register - Application form</span>
+                </h2>
+                <div class="sub-page-nav clearfix">
+                    <ul>
+                        <li><a href="register.php">Contestant criteria</a></li>
+                        <li><a href="judging.php">Judging criteria</a></li>
+                        <li><a class="current-page">Application form</a></li>
+                    </ul>
+                </div>
 <!--                <form name="application-form" id="application-form" action="apply.php" method="post" enctype="multipart/form-data">-->
 <!--                -->
 <!--				<fieldset>-->
@@ -244,6 +253,9 @@
 <!--                    Commercial-in-Confidence / Without Prejudice.-->
 <!--                </div>-->
 <!--                </form>                -->
+
+
+                <p>Please see <a href="rule-and-conditions.php">rule and conditions</a> of entry.</p>
             </div>
             
             <div class="content-box sidebar">
