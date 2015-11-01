@@ -43,219 +43,128 @@
                         <li><a class="current-page">Application form</a></li>
                     </ul>
                 </div>
-<!--                <form name="application-form" id="application-form" action="apply.php" method="post" enctype="multipart/form-data">-->
-<!--                -->
-<!--				<fieldset>-->
-<!--				-->
-<!--                	<legend>Personal details</legend>-->
-<!--                    <div class="row">-->
-<!--                    	<label for="firstname" title="mandatory field">First name *</label>-->
-<!--                        <input type="text" value="" class="text" id="firstname" name="firstname" data-validate="text" />-->
-<!--                    </div> -->
-<!--                    <div class="row">-->
-<!--                    	<label for="lastname" title="mandatory field">Last name *</label>-->
-<!--                        <input type="text" value="" class="text" id="lastname" name="lastname" data-validate="text" />-->
-<!--                    </div>-->
-<!--                    <div class="row">-->
-<!--                    	<label for="email" title="mandatory field">Email address *</label>-->
-<!--                        <input type="text" value="" class="text" id="email" name="email" data-validate="email" />-->
-<!--                    </div> -->
-<!--                    <div class="row">-->
-<!--                    	<label for="phone">Phone number *</label>-->
-<!--                        <input type="text" value="" class="text" id="phone" name="phone" data-validate="text" />-->
-<!--                    </div> -->
-<!--                    <div class="row">-->
-<!--                    	<label for="address1">Postal Address *</label>-->
-<!--                        <input type="text" value="" class="text" id="address1" name="address1" data-validate="text" />-->
-<!--                    </div> -->
-<!--                    <div class="row">-->
-<!--                    	<label for="address2">&nbsp;</label>-->
-<!--                        <input type="text" value="" class="text" id="address2" name="address2" />-->
-<!--                    </div>-->
-<!--                    <div class="row">-->
-<!--                    	<label for="address3">&nbsp;</label>-->
-<!--                        <input type="text" value="" class="text" id="address3" name="address3" />-->
-<!--                    </div>-->
-<!--                    <div class="row">-->
-<!--						--><?php //$months = array("select..", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"); ?>
-<!--						<div id="date_select" >-->
-<!--							<label for="dob">Date of birth *</label>-->
-<!--							-->
-<!--							<select name="date_day" id="day_select" data-validate="select"><option>-</option>-->
-<!--							--><?php //for ($day = 1; $day <= 31; $day++) : ?>
-<!--								<option>--><?php //echo $day?><!--</option>-->
-<!--							--><?php //endfor; ?>
-<!--							</select>-->
-<!--							-->
-<!--							<select name="date_month" id="month_select" data-validate="select"><option>-</option>-->
-<!--							--><?php //foreach ($months as $key => $month) : ?>
-<!--								<option value="--><?php //echo $key+1?><!--">--><?php //echo $month?><!--</option>-->
-<!--							--><?php //endforeach; ?>
-<!--							</select>-->
-<!--							-->
-<!--							<select name="date_year" id="year_select" data-validate="select"><option>19..</option>-->
-<!--							--><?php //for ($year = 1975; $year <= (date("Y") - $year_limit); $year++) : ?>
-<!--								<option>--><?php //echo $year?><!--</option>-->
-<!--							--><?php //endfor; ?>
-<!--							</select>-->
-<!--							-->
-<!--						</div>-->
-<!--                    </div>-->
-<!--                    <div class="row">-->
-<!--                    	<label for="country">Country of Birth *</label>-->
-<!--                        <input type="text" value="" class="text" id="country" name="country" data-validate="text" />-->
-<!--                    </div> -->
-<!--                    <div class="row">-->
-<!--                    	<label for="qualifications">Qualifications *</label>-->
-<!--                        <input type="text" value="" class="text" id="qualifications" name="qualifications" data-validate="text" />-->
-<!--                    </div> -->
-<!--                    <div class="row">-->
-<!--                    	<label for="job">Job *</label>-->
-<!--                        <input type="text" value="" class="text" id="job" name="job" data-validate="text" />-->
-<!--                    </div>-->
-<!--                    <div class="row">-->
-<!--                    	<label for="state">West African State *</label>-->
-<!--                        <select id="state" name="state" class="select" data-validate="select">-->
-<!--                            <option value="0" selected="selected">select...</option>-->
-<!--                            <option value="Benin">Benin</option>-->
-<!--                            <option value="Burkina Faso">Burkina Faso</option>-->
-<!--                            <option value="Cameroon">Cameroon</option>-->
-<!--                            <option value="Cape Verde">Cape Verde</option>-->
-<!--                            <option value="Cote D'Ivoire">Cote D'Ivoire</option>-->
-<!--                            <option value="Gambia">Gambia</option>-->
-<!--                            <option value="Ghana">Ghana</option>-->
-<!--                            <option value="Guinea">Guinea</option>-->
-<!--                            <option value="Guinea Bissua">Guinea Bissua</option>-->
-<!--                            <option value="Liberia">Liberia</option>-->
-<!--                            <option value="Mali">Mali</option>-->
-<!--                            <option value="Niger">Niger</option>-->
-<!--                            <option value="Nigeria">Nigeria</option>-->
-<!--                            <option value="Senegal">Senegal</option>-->
-<!--                            <option value="Sierra Leone">Sierra Leone</option>-->
-<!--                            <option value="Togo">Togo</option>-->
-<!--                        </select>-->
-<!--                    </div>-->
-<!--                </fieldset>-->
-<!--                <fieldset class="inputs">-->
-<!--                	<legend>Physical details</legend>-->
-<!--                    -->
-<!--                    <div class="row">-->
-<!--                    	<label for="file">Filename *</label>-->
-<!--                        <div class="upload-box">-->
-<!--                        	<input type="file" name="file" id="file" class="upload" data-validate="upload">-->
-<!--                        </div>-->
-<!--                        <p class="helpText" style="clear:left; font-size: 12px; padding-left: 146px; color: #999;">JPEGs only, Clear view of your face, Less than 500KB file size</p>-->
-<!--                    </div>-->
-<!--                    -->
-<!--                    <div class="row">-->
-<!--                    	<label for="dress">Dress size *</label>-->
-<!--                        <select id="dress" name="dress" class="select" data-validate="select">-->
-<!--                            <option value="0" selected="selected">select...</option>-->
-<!--                            <option value="6">6</option>-->
-<!--                            <option value="8">8</option>-->
-<!--                            <option value="10">10</option>-->
-<!--                            <option value="12">12</option>-->
-<!--                            <option value="More than 12">More than 12</option>-->
-<!--                        </select>-->
-<!--                    </div>-->
-<!--                    <div class="row">-->
-<!--                    	<label for="height">Height (feet + inches) *</label>-->
-<!--                        <input type="text" value="" class="text" id="height" name="height" data-validate="text" />-->
-<!--                    </div>-->
-<!--                    <div class="row">-->
-<!--                    	<label for="weight">Weight (kg) *</label>-->
-<!--                        <input type="text" value="" class="text" id="weight" name="weight" data-validate="text" />-->
-<!--                    </div>-->
-<!--                    <div class="row">-->
-<!--                    	<label for="bust">Bust (inches) *</label>-->
-<!--                        <input type="text" value="" class="text" id="bust" name="bust" data-validate="text" />-->
-<!--                    </div>-->
-<!--                    <div class="row">-->
-<!--                    	<label for="hips">Hips (inches) *</label>-->
-<!--                        <input type="text" value="" class="text" id="hips" name="hips" data-validate="text" />-->
-<!--                    </div>-->
-<!--                    <div class="row">-->
-<!--                    	<label for="waist">Waist (inches) *</label>-->
-<!--                        <input type="text" value="" class="text" id="waist" name="waist" data-validate="text" />-->
-<!--                    </div>-->
-<!--                    <div class="row">-->
-<!--                    	<label for="head">Head (inches) *</label>-->
-<!--                        <input type="text" value="" class="text" id="head" name="head" data-validate="text" />-->
-<!--                    </div>-->
-<!--                    <div class="row">-->
-<!--                    	<label for="shoe">Shoe size *</label>-->
-<!--                        <select id="shoe" name="shoe" class="select" data-validate="select">-->
-<!--                            <option value="0" selected="selected">select...</option>-->
-<!--                            <option value="37">37</option>-->
-<!--                            <option value="38">38</option>-->
-<!--                            <option value="39">39</option>-->
-<!--                            <option value="40">40</option>-->
-<!--                            <option value="41">41</option>-->
-<!--                            <option value="42">42</option>-->
-<!--                        </select>-->
-<!--                    </div>-->
-<!--                    <div class="row">-->
-<!--                    	<label for="hair">Hair colour *</label>-->
-<!--                        <input type="text" value="" class="text" id="hair" name="hair" data-validate="text" />-->
-<!--                    </div>-->
-<!--                    <div class="row">-->
-<!--                    	<label for="eyes">Eyes colour *</label>-->
-<!--                        <input type="text" value="" class="text" id="eyes" name="eyes" data-validate="text" />-->
-<!--                    </div>-->
-<!--                    <div class="row">-->
-<!--                    	<label for="hat">Hat size *</label>-->
-<!--                        <select id="hat" name="hat" class="select" data-validate="select">-->
-<!--                            <option value="0" selected="selected">select...</option>-->
-<!--                            <option value="Small">Small</option>-->
-<!--                            <option value="Medium">Medium</option>-->
-<!--                            <option value="Large">Large</option>-->
-<!--                        </select>-->
-<!--                    </div>-->
-<!--                </fieldset>-->
-<!--                <fieldset class="textareas">-->
-<!--                	<legend>Preferences</legend>                    -->
-<!--                    <div class="row">-->
-<!--                    	<label for="food">Top 3 food types? (italian, chinese, traditional..)</label>-->
-<!--                        <textarea name="food" id="food" cols="20" rows="7" data-validate="text"></textarea>-->
-<!--                    </div>-->
-<!--                    <div class="row">-->
-<!--                    	<label for="music"><span>Top 3 music genres? (rock, pop, classical, rap...)</span></label>-->
-<!--                        <textarea name="music" id="music" cols="20" rows="7" data-validate="text"></textarea>-->
-<!--                    </div>-->
-<!--                    <div class="row">-->
-<!--                    	<label for="hobbies"><span>Favourite hobbies or pastime?</span></label>-->
-<!--                        <textarea name="hobbies" id="hobbies" cols="20" rows="7" data-validate="text"></textarea>-->
-<!--                    </div>-->
-<!--                    <div class="row">-->
-<!--                    	<label for="why"><span>Why would you like to be Queen Globe?</span></label>-->
-<!--                        <textarea name="why" id="why" cols="20" rows="7" data-validate="text"></textarea>-->
-<!--                    </div>-->
-<!--                    <div class="row">-->
-<!--                    	<label for="president"><span>First course of action if president?</span></label>-->
-<!--                        <textarea name="president" id="president" cols="20" rows="7" data-validate="text"></textarea>-->
-<!--                    </div>-->
-<!--                    <div class="row">-->
-<!--                    	<label for="marks"><span>Any tattoos, piercings or scars?</span></label>-->
-<!--                        <textarea name="marks" id="marks" cols="20" rows="7" data-validate="text"></textarea>-->
-<!--                    </div>-->
-<!--                    <div class="row">-->
-<!--                    	<label for="how"><span>How did you hear about Queen Globe?</span></label>-->
-<!--                        <textarea name="how" id="how" cols="20" rows="7" data-validate="text"></textarea>-->
-<!--                    </div>-->
-<!--                </fieldset>-->
-<!--                <div class="row submit">-->
-<!--                	<input type="submit" value="Apply now" class="submit" />-->
-<!--                </div>-->
-<!--                <div class="disclaimer">-->
-<!--                	DISCLAIMER: This message is intended only for the use of the persons ("Intended Recipient") to whom it is addressed. It may contain information, which is privileged-->
-<!--                    and confidential. Accordingly any dissemination, distribution, copying or other use of this message or any of its content by person other than the intended Recipient-->
-<!--                    may constitute a breach of civil or criminal law and is strictly prohibited. If you are not the Intended Recipient, please contact the sender as soon as possible.-->
-<!--                    Commercial-in-Confidence / Without Prejudice.-->
-<!--                </div>-->
-<!--                </form>                -->
+                <form name="application-form" id="application-form" action="apply.php" method="post" enctype="multipart/form-data">
+
+				<fieldset>
+
+                	<legend>Personal details</legend>
+                    <div class="row">
+                    	<label for="firstname" title="mandatory field">First name *</label>
+                        <input type="text" value="" class="text" id="firstname" name="firstname" data-validate="text" />
+                    </div>
+                    <div class="row">
+                    	<label for="lastname" title="mandatory field">Last name *</label>
+                        <input type="text" value="" class="text" id="lastname" name="lastname" data-validate="text" />
+                    </div>
+                    <div class="row">
+                    	<label for="email" title="mandatory field">Email address *</label>
+                        <input type="text" value="" class="text" id="email" name="email" data-validate="email" />
+                    </div>
+                    <div class="row">
+                    	<label for="phone">Phone number *</label>
+                        <input type="text" value="" class="text" id="phone" name="phone" data-validate="text" />
+                    </div>
+                    <div class="row">
+                        <label for="mobile">Mobile *</label>
+                        <input type="text" value="" class="text" id="mobile" name="mobile" data-validate="text" />
+                    </div>
+
+                    <div class="row">
+						<?php $months = array("select..", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"); ?>
+						<div id="date_select" >
+							<label for="dob">Date of birth *</label>
+
+							<select name="date_day" id="day_select" data-validate="select"><option>-</option>
+							<?php for ($day = 1; $day <= 31; $day++) : ?>
+								<option><?php echo $day?></option>
+							<?php endfor; ?>
+							</select>
+
+							<select name="date_month" id="month_select" data-validate="select"><option>-</option>
+							<?php foreach ($months as $key => $month) : ?>
+								<option value="<?php echo $key+1?>"><?php echo $month?></option>
+							<?php endforeach; ?>
+							</select>
+
+							<select name="date_year" id="year_select" data-validate="select"><option>19..</option>
+							<?php for ($year = 1984; $year <= (date("Y") - $year_limit); $year++) : ?>
+								<option><?php echo $year?></option>
+							<?php endfor; ?>
+							</select>
+
+						</div>
+                    </div>
+                    <div class="row">
+                    	<label for="place-of-birth">Place of Birth *</label>
+                        <input type="text" value="" class="text" id="place-of-birth" name="place-of-birth" data-validate="text" />
+                    </div>
+
+                    <div class="row">
+                        <label for="address1">Postal Address *</label>
+                        <input type="text" value="" class="text" id="address1" name="address1" data-validate="text" />
+                    </div>
+                    <div class="row">
+                        <label for="address2">&nbsp;</label>
+                        <input type="text" value="" class="text" id="address2" name="address2" />
+                    </div>
+                    <div class="row">
+                        <label for="address3">&nbsp;</label>
+                        <input type="text" value="" class="text" id="address3" name="address3" />
+                    </div>
+                </fieldset>
+
+                <fieldset class="inputs">
+                	<legend>Physical details</legend>
+
+                    <div class="row">
+                    	<label for="file">Headshot *</label>
+                        <div class="upload-box">
+                        	<input type="file" name="headshot" id="headshot" class="upload" data-validate="upload">
+                        </div>
+                        <p class="helpText" style="clear:left; font-size: 12px; padding-left: 146px; color: #999;">JPEGs only, Clear view of your face, Less than 500KB file size</p>
+                    </div>
+
+                    <div class="row">
+                        <label for="file">Swimwear photo *</label>
+                        <div class="upload-box">
+                            <input type="file" name="swimwear" id="swimwear" class="upload" data-validate="upload">
+                        </div>
+                        <p class="helpText" style="clear:left; font-size: 12px; padding-left: 146px; color: #999;">JPEGs only, Clear view of your face, Less than 500KB file size</p>
+                    </div>
+
+                    <div class="row">
+                        <label for="file">Evening gown photo *</label>
+                        <div class="upload-box">
+                            <input type="file" name="evening-gown" id="evening-gown" class="upload" data-validate="upload">
+                        </div>
+                        <p class="helpText" style="clear:left; font-size: 12px; padding-left: 146px; color: #999;">JPEGs only, Clear view of your face, Less than 500KB file size</p>
+                    </div>
+
+                    <div class="row">
+                    	<label for="height">Height (cm) *</label>
+                        <input type="text" value="" class="text" id="height" name="height" data-validate="text" />
+                    </div>
+                    <div class="row">
+                    	<label for="weight">Weight (kg) *</label>
+                        <input type="text" value="" class="text" id="weight" name="weight" data-validate="text" />
+                    </div>
+                    <div class="row captcha">
+                        <label for="captcha">Enter number shown *</label>
+                        <input type="text" value="" class="text" id="captcha" name="captcha" data-validate="text" />
+                        <img src="captcha.php" />
+                    </div>
+                    <div class="row no-label">
+                        <label><input type="checkbox" value="" class="checkbox" id="terms-and-conditions" name="terms-and-conditions" data-validate="checkbox" /> I agree to the <a href="rule-and-conditions.php">rules and conditions</a>.</label>
+                    </div>
+
+                </fieldset>
+
+                <div class="row submit">
+                	<input type="submit" value="Apply now" class="submit" />
+                </div>
+                </form>
 
 
-                <p>Please see <a href="rule-and-conditions.php">rule and conditions</a> of entry.</p>
             </div>
             
             <div class="content-box sidebar">
