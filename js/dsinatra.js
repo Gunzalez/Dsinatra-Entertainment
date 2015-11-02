@@ -106,7 +106,7 @@ var dsinatra = {
 				}
 			}
 			
-			// autostart 
+			// auto start
 			dsinatra.carousel.loop = setInterval(function(){
 				if(!dsinatra.carousel.hover){
 					dsinatra.carousel.next();
@@ -574,7 +574,7 @@ var dsinatra = {
 			});
 			
 			$('#application-form').submit(function(){				
-				var rtrnVal = true;
+				var rtnVal = true;
 							
 				$('#application-form input, #application-form select').each(function(index, obj){
 					var $inputField = $(obj);
@@ -585,7 +585,7 @@ var dsinatra = {
 							// This field is mandatory
 							if($.trim($inputField.val()).length < 1 ){
 								$inputField.parents('.row').addClass('error');
-								rtrnVal = false;
+								rtnVal = false;
 							}
 							break;
 						case 'email':
@@ -596,7 +596,7 @@ var dsinatra = {
 							};		
 							if(!IsEmail($.trim($inputField.val()))){	
 								$inputField.parents('.row').addClass('error');
-								rtrnVal = false;
+								rtnVal = false;
 							}
 							break;
 						case 'select':
@@ -612,7 +612,7 @@ var dsinatra = {
 							};		
 							if(IsDefault($inputField)){	
 								$inputField.parents('.row').addClass('error');
-								rtrnVal = false;
+								rtnVal = false;
 							}
 							break;
 						case 'upload':
@@ -623,7 +623,7 @@ var dsinatra = {
 								// return true;
 							} else {
 								$inputField.parents('.row').addClass('error');
-								rtrnVal = false;
+								rtnVal = false;
 							}
 							break;	
 						default:
@@ -631,19 +631,25 @@ var dsinatra = {
 						}
 					}
 					
-					
 				});
 				
-				if(!rtrnVal){
+				if(!rtnVal){
 					$('body,html').animate({
 						scrollTop: 0
 					}, 1000);	
 				}
 				
+				return rtnVal;
 				
-				return rtrnVal;
-				
-			});			
+			});
+
+            $('#terms-and-conditions').on('change',function(){
+                if(this.checked == true){
+                    $('#submit-button').removeClass('disabled').removeAttr('disabled');
+                } else {
+                    $('#submit-button').addClass('disabled').attr('disabled','disabled');
+                }
+            })
 		}
 	},
 	init: function(){

@@ -1,3 +1,8 @@
+<?php
+//session_start();
+//echo $_SESSION["error"];
+//
+?>
 <!doctype html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -33,8 +38,8 @@
     	<div class="centered clearfix">
         
             <div class="content-box wide"> 
-            	<h2 class="clearfix"><span>Registration error.</span></h2>
-                <p>Your application has not been sent due to a technical error. <br />Please <a href="form.php">try again</a>.</p>                                
+            	<h2 class="clearfix"><span>Registration error</span></h2>
+                <p>Your application has not been sent due to a technical error. <br />Please <a href="entry-form.php">try again</a>.</p>
             </div>
             
             <div class="content-box sidebar">

@@ -43,7 +43,7 @@
                         <li><a class="current-page">Application form</a></li>
                     </ul>
                 </div>
-                <form name="application-form" id="application-form" action="apply.php" method="post" enctype="multipart/form-data">
+                <form name="application-form" id="application-form" action="apply-wsn.php" method="post" enctype="multipart/form-data">
 
 				<fieldset>
 
@@ -154,13 +154,13 @@
                         <img src="captcha.php" />
                     </div>
                     <div class="row no-label">
-                        <label><input type="checkbox" value="" class="checkbox" id="terms-and-conditions" name="terms-and-conditions" data-validate="checkbox" /> I agree to the <a href="rule-and-conditions.php">rules and conditions</a>.</label>
+                        <label><input type="checkbox" value="Yes, I agree" class="checkbox" id="terms-and-conditions" name="terms-and-conditions" data-validate="checkbox" /> I agree to the <a href="rules-and-conditions.php">rules and conditions</a>.</label>
                     </div>
 
                 </fieldset>
 
                 <div class="row submit">
-                	<input type="submit" value="Apply now" class="submit" />
+                	<input type="submit" value="Apply now" id="submit-button" class="submit disabled" disabled="disabled" />
                 </div>
                 </form>
 

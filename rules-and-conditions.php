@@ -31,33 +31,23 @@
 <div id="content">   
     <div class="content">
     	<div class="centered clearfix">
-        
-            <div class="content-box wide"> 
-            	<h2 class="clearfix">
+
+
+            <div class="content-box wider">
+                <h2 class="clearfix">
                     <span>Rules and Conditions</span>
                     <a class="more-button" href="#" onclick="window.history.back();">Back</a>
                 </h2>
-
-
-            </div>
-            
-            <div class="content-box sidebar">
-                <div class="header-image">
-                	<a href="news/miss-west-africa.php">
-                        <img src="images/miss-westafrica-nigeria.jpg" width="260" height="170" alt="Miss West Africa Nigeria" class="imagery" />
-                        <h2 class="clearfix"><span>Miss West Africa Nigeria</span></h2>
-                    </a>
-                </div>
                 <div class="copy">
-                    <p>On the 23rd of Feb 2013 26 contestants gathered at Grand Hotel, Asaba, Delta State for the Miss West Africa Nigeria beauty pageant.</p>
+
+                    <h2>Apologies, this section is being updated, please comeback soon.</h2>
+
+                    <div style="height: 400px;"></div>
+
+
+
+
                 </div>
-                <h2 class="clearfix"><span>Latest News</span></h2>
-                <ul class="newslist">
-                	<li><a href="JavaScript:html5Lightbox.showLightbox(3, 'http://youtu.be/0_5nB2qJUyE', 'Queen Globe');" data-width="880">Watch the new Queen Globe video for full details.</a></li>
-                    <li><a href="JavaScript:html5Lightbox.showLightbox(3, 'http://youtu.be/h5NnFezuAhs', 'MWAN - LYNNXX EDIT');" data-width="880">Watch Miss West African Nigeria <br />- MWAN, LYNNXX EDIT</a></li>
-                    <li><a href="news/queen-globe.php">The Queen Globe event will see the winner representing Nigeria at the world supermodel international event</a></li>
-                    <li><a href="news/miss-west-africa.php">Miss West Africa Nigeria conculded at the grande finale on the 23rd of February.</a></li>                                               
-                </ul>            
             </div>
             
         </div>

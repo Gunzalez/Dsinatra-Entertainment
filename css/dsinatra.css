@@ -869,6 +869,11 @@ input.submit,
 	margin-right: -1px;
 }
 
+input.submit.disabled {
+    background-color: #cccccc; /* yellow */
+    cursor: default;
+}
+
 #frmContact input.empty {
 	color: #ccc;
 }
@@ -876,6 +881,10 @@ input.submit,
 input.submit:hover,
 #submit:hover {
 	background-color: #fff;
+}
+
+input.submit.disabled:hover {
+    background-color: #cccccc;
 }
 
 #frmContact fieldset {

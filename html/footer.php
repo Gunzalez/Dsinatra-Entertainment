@@ -86,7 +86,7 @@
     	<div class="centered clearfix"> 
         
         	<ul class="fanchize">
-                <li><a href="news/queen-globe.php"><img src="images/partners/queen-globe-logo.jpg" alt="" /></a></li>
+                <li><a href="news/queen-globe.php"><img src="images/partners/queen-globe-logo.jpg" alt="Queen globe" /></a></li>
                 <li><a href="http://dsinatraent.com/register/wsnentryform"><img src="images/partners/wsn-logo.jpg" alt="World Supermodel Nigeria" /></a></li>
                 <li><a href="http://www.missteensupermodel.com/" target="_blank"><img src="images/partners/franchize-teensuper-model.png" alt="Super Teen Model" width="239" /></a></li>
                 <li><a href="http://www.worldsupermodelpageant.com/" target="_blank"><img src="images/partners/fanchize-national-directories.jpg" alt="National Directors" /></a></li>

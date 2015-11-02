@@ -160,7 +160,7 @@
 	$mail->Subject = "Queen Globe Application";
 	
 	$mail->MsgHTML($yourmessage);
-	//$mail->Body = $yourmessage;
+	//$mail->Body = $yourMessage;
 	
 	if (is_file($path.$img->image_src)) {
 		$mail->AddAttachment($path.$img->image_src);

@@ -78,7 +78,7 @@
                         <li>Best Swimwear</li>
                     </ul>
 
-                    <p>Please see <a href="rule-and-conditions.php">rule and conditions</a> of entry.</p>
+                    <p>Please see <a href="rules-and-conditions.php">rule and conditions</a> of entry.</p>
 
 
                 </div>
