@@ -12,53 +12,17 @@
     <link rel="shortcut icon" type="image/x-icon" href="http://www.dsinatraent.com/images/favicon.ico">    
     
     <link rel="stylesheet" type="text/css" href="css/dsinatra.css" />
-    <link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
-    <script src="js/modernizr-latest.js"></script>
-    
-    <!-- Social Facebook -->
-    <meta property="og:title" content="D-Sinatra Entertainment" />
-    <meta property="og:type" content="company" />
-    <meta property="og:url" content="http://www.dsinatraent.com" />
-    <meta property="og:image" content="http://www.dsinatraent.com/images/logo-fb-like.png" />
-    <meta property="og:description" content="D-Sinatra Entertainment is a leading professional entertainment and pageant company in Nigeria" />
-    <meta property="og:site_name" content="D-Sinatra Entertainment" />
-    <meta property="fb:admins" content="708500515" />
+
 </head>
 <body>
 
-<?php require_once('html/header-area.php'); ?>
-
-<div id="content">   
-    <div class="content">
-    	<div class="centered clearfix">
-
-
-            <div class="content-box wider">
-                <h2 class="clearfix">
-                    <span>Rules and Conditions</span>
-                    <a class="more-button" href="#" onclick="window.history.back();">Back</a>
-                </h2>
-                <div class="copy">
-
-                    <h2>Apologies, this section is being updated, please comeback soon.</h2>
-
-                    <div style="height: 400px;"></div>
-
-
-
-
-                </div>
-            </div>
-            
-        </div>
-    </div>
+<div id="content">
+    <h2 class="clearfix">
+        <span>Rules and Conditions</span>
+        <a class="more-button" href="#">Close</a>
+    </h2>
 </div>
 
-<?php require_once('html/footer.php'); ?>
-
-<script src="js/jquery-1.8.3.min.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="html5lightbox/html5lightbox.js"></script>
 <script src="js/dsinatra.js"></script>
 </body>
 </html>

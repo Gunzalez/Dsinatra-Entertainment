@@ -1,5 +1,6 @@
 <?php
-
+    // Enables error reporting at page level
+    // error_reporting(E_ERROR | E_WARNING | E_PARSE);
     session_start();
     $sessionCode = $_SESSION["code"];
     $sentCode = getPostValue('captcha');
@@ -32,7 +33,16 @@
 			$randomString .= $characters[rand(0, strlen($characters) - 1)];
 		};
 		return $randomString;
-	};		
+	};
+
+    function redirect ($url) {
+        header("Location: {$url}");
+        exit;
+    };
+
+    function getPostValue($name) {
+        return trim(addslashes($_POST[$name]));
+    };
 	
 	// Collect variables
 	$fn = getPostValue('firstname');
@@ -46,40 +56,21 @@
 	$add3 = getPostValue('address3');
     $height = getPostValue('height');
 	$weight = getPostValue('weight');
-	
-	
-	if (!empty($_FILES['headshot']['tmp_name'])) {
-		$img = new MFC_Image();
-		
-		if (!empty($fn) && !empty($ln)) {
-			$filename = $fn.'_'.$ln.'_'.generateRandomString();
-		} else {
-			$filename = $_FILES['headshot']['name'];
-		}
-		
-		$msg = $img->upload_image ('Image', 'headshot', $path, $filename);
-		
-		if (empty($msg)) {
-			if (!$img->resize_image (500, 500, $path)) {
-                $_SESSION["error"]='upload';
-				redirect('error.php');
-			}
-		} else {
-            $_SESSION["error"]='upload2';
-			redirect('error.php');
-		}
-	}
+
 
 	// Insert into database
-	$sql = "INSERT INTO wsn (firstname, lastname, email, phone, mobile, dob, address1, address2, address3, height, weight )
-            VALUES ('$fn', '$ln', '$email', '$phone', '$mobile', '$dob', '$add1', '$add2', '$add3' '$height', '$weight')";
+	$sql = "INSERT INTO wsn (firstname, lastname, email, phone, mobile, dob, address1, address2, address3, height, weight) VALUES ('$fn', '$ln', '$email', '$phone', '$mobile', '$dob', '$add1', '$add2', '$add3', '$height', '$weight')";
+
+    //echo $sql;
 	mysqli_query($con, $sql);
-	
+    //if (!mysqli_query($con, $sql)) {
+    //    printf("Error: %s\n", mysqli_error($con));
+    //}
 	
 	// Create email
     //$mailto = "rob@twelvenoon.co.uk";
-	$mailto = "gunzalez@hotmail.com";
-    //$mailto = "info@dsinatraent.com";
+    //$mailto = "gunzalez@gmail.com";
+    $mailto = "info@dsinatraent.com";
 	
 	$yourMessage  = "<table cellspacing=\"10\" cellpadding=\"0\" border=\"0\">";
 	$yourMessage .= "<tr><td>Date sent:</td><td>" . date("F jS, Y, g:i a") . "</td></tr>";
@@ -111,6 +102,76 @@
 	
 	$mail->MsgHTML($yourMessage);
 	//$mail->Body = $yourMessage;
+
+    if (!empty($_FILES['headshot']['tmp_name'])) {
+        $img = new MFC_Image();
+
+        if (!empty($fn) && !empty($ln)) {
+            $filename = $fn.'_'.$ln.'_headshot_'.generateRandomString();
+        } else {
+            $filename = $_FILES['headshot']['name'];
+        }
+        $msg = $img->upload_image ('Image', 'headshot', $path, $filename);
+        if (empty($msg)) {
+            if (!$img->resize_image (500, 500, $path)) {
+                $_SESSION["error"]='headshot';
+                redirect('error.php');
+            }
+        } else {
+            $_SESSION["error"]='headshot2';
+            redirect('error.php');
+        }
+    }
+
+    if (is_file($path.$img->image_src)) {
+        $mail->AddAttachment($path.$img->image_src);
+    }
+
+
+    if (!empty($_FILES['swimwear']['tmp_name'])) {
+        $img = new MFC_Image();
+
+        if (!empty($fn) && !empty($ln)) {
+            $filename = $fn.'_'.$ln.'_swimwear_'.generateRandomString();
+        } else {
+            $filename = $_FILES['swimwear']['name'];
+        }
+        $msg = $img->upload_image ('Image', 'swimwear', $path, $filename);
+        if (empty($msg)) {
+            if (!$img->resize_image (500, 500, $path)) {
+                $_SESSION["error"]='swimwear';
+                redirect('error.php');
+            }
+        } else {
+            $_SESSION["error"]='swimwear2';
+            redirect('error.php');
+        }
+    }
+
+    if (is_file($path.$img->image_src)) {
+        $mail->AddAttachment($path.$img->image_src);
+    }
+
+
+    if (!empty($_FILES['eveninggown']['tmp_name'])) {
+        $img = new MFC_Image();
+
+        if (!empty($fn) && !empty($ln)) {
+            $filename = $fn.'_'.$ln.'_evening_gown_'.generateRandomString();
+        } else {
+            $filename = $_FILES['eveninggown']['name'];
+        }
+        $msg = $img->upload_image ('Image', 'eveninggown', $path, $filename);
+        if (empty($msg)) {
+            if (!$img->resize_image (500, 500, $path)) {
+                $_SESSION["error"]='eveninggown';
+                redirect('error.php');
+            }
+        } else {
+            $_SESSION["error"]='eveninggown2';
+            redirect('error.php');
+        }
+    }
 	
 	if (is_file($path.$img->image_src)) {
 		$mail->AddAttachment($path.$img->image_src);
@@ -118,25 +179,12 @@
 	
 	
 	if (!$mail->Send()) {
-        $_SESSION["error"]='send';
+        $_SESSION["error"]=$mail->ErrorInfo;
 		redirect('error.php');
-		//echo $mail->ErrorInfo;		
+		//echo $mail->ErrorInfo;
 	}
-	
-	redirect('thanks.php');
-	
 
+    redirect('thanks.php');
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-	
-	function redirect ($url) {	
-		header("Location: {$url}");
-		exit;
-	}
-	
-	function getPostValue($name) {
-		return trim(addslashes($_POST[$name]));	
-	}
 ?>
 

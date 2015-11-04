@@ -103,8 +103,8 @@
 	
 	// Create email
 	//$mailto = "rob@twelvenoon.co.uk";
-	//$mailto = "gunzalez@hotmail.com";
-	$mailto = "info@dsinatraent.com";
+	$mailto = "gunzalez@gmail.com";
+//$mailto = "info@dsinatraent.com";
 	
 	$yourmessage  = "<table cellspacing=\"10\" cellpadding=\"0\" border=\"0\">";
 	$yourmessage .= "<tr><td>Date sent:</td><td>" . date("F jS, Y, g:i a") . "</td></tr>";

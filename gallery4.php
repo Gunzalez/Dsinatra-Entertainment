@@ -68,7 +68,7 @@
                 </ul>
                 <p class="more-galleries">
                     <a href="gallery.php">Rachel Ikehwame - Dsinatra queen</a>
-                	<a href="gallery3.php">Queen Globe Event</a>
+                    <a href="gallery3.php">Queen Globe Event (7)</a>
                 	<a href="gallery2.php">Miss West Africa Nigeria Photos</a>
                 </p>    
             </div>

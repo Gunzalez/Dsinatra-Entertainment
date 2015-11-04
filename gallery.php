@@ -47,8 +47,8 @@
             	<h2 class="clearfix"><span>Photo galleries</span></h2>
 
                 <p class="more-galleries">
-                    <a href="gallery4.php">Queens of Nigerian</a>
-                	<a href="gallery3.php">The Queen Globe Event</a>
+                    <a href="gallery4.php">Queens of Nigerian (2)</a>
+                	<a href="gallery3.php">Queen Globe Event (7)</a>
                 	<a href="gallery2.php">Miss West Africa Nigeria Photos</a>
                 </p>    
             </div>

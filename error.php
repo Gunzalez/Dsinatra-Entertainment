@@ -1,7 +1,10 @@
 <?php
-//session_start();
-//echo $_SESSION["error"];
-//
+session_start();
+$error = 'none';
+if(isset($_SESSION["error"])){
+    $error = $_SESSION["error"];
+}
+
 ?>
 <!doctype html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -38,26 +41,11 @@
     	<div class="centered clearfix">
         
             <div class="content-box wide"> 
-            	<h2 class="clearfix"><span>Registration error</span></h2>
+            	<h2 class="clearfix"><span class="<?php echo $error; ?>">Registration error</span></h2>
                 <p>Your application has not been sent due to a technical error. <br />Please <a href="entry-form.php">try again</a>.</p>
             </div>
-            
-            <div class="content-box sidebar">
-                <div class="header-image">
-                	<a href="news/miss-west-africa.php">
-                        <img src="images/miss-westafrica-nigeria.jpg" width="260" height="170" alt="Miss West Africa Nigeria" class="imagery" />
-                        <h2 class="clearfix"><span>Miss West Africa Nigeria</span></h2>
-                    </a>
-                </div>
-                <div class="copy">
-                    <p>On the 23rd of Feb 2013 26 contestants gathered at Grand Hotel, Asaba, Delta State for the Miss West Africa Nigeria beauty pageant.</p>
-                </div>
-                <h2 class="clearfix"><span>Latest News</span></h2>
-                <ul class="newslist">
-                    <li><a href="news/queen-globe.php">The Queen Globe event will see the winner representing Nigeria at the world supermodel international event</a></li>
-                    <li><a href="news/miss-west-africa.php">Miss West Africa Nigeria conculded at the grande finale on the 23rd of February.</a></li>                                               
-                </ul>            
-            </div>
+
+            <?php require_once('html/news-side-bar.php'); ?>
             
         </div>
     </div>

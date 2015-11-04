@@ -518,7 +518,20 @@ var dsinatra = {
 					});
 				});
 			}
-			
+
+            if($('.new-window').length > 0){
+                $('.new-window').each(function(i, obj){
+                    var $obj = $(obj);
+                    $obj.on('click', function(event){
+                        event.preventDefault();
+
+                        var href = $(this).attr('href');
+                        window.open(href, "popupWindow", "width=600,height=600,scrollbars=yes");
+
+
+                    });
+                });
+            }
 		}
 	},
 	twitterfeed: {
@@ -637,7 +650,11 @@ var dsinatra = {
 					$('body,html').animate({
 						scrollTop: 0
 					}, 1000);	
-				}
+				} else {
+                    $('#submit-button').addClass('disabled').attr('disabled','disabled');
+                    $('#loading').removeClass('displayNone');
+                    $('#shield').removeClass('displayNone');
+                }
 				
 				return rtnVal;
 				
@@ -649,7 +666,8 @@ var dsinatra = {
                 } else {
                     $('#submit-button').addClass('disabled').attr('disabled','disabled');
                 }
-            })
+            });
+
 		}
 	},
 	init: function(){

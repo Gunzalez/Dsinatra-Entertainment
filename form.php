@@ -248,7 +248,7 @@
             
             <div class="content-box sidebar">
                 <div class="header-image">
-                	<a href="news/miss-west-africa.php">
+                	<a href="miss-west-africa.php">
                         <img src="images/miss-westafrica-nigeria.jpg" width="260" height="170" alt="Miss West Africa Nigeria" class="imagery" />
                         <h2 class="clearfix"><span>Miss West Africa Nigeria</span></h2>
                     </a>
@@ -260,8 +260,8 @@
                 <ul class="newslist">
                 	<li><a href="JavaScript:html5Lightbox.showLightbox(3, 'http://youtu.be/0_5nB2qJUyE', 'Queen Globe');" data-width="880">Watch the new Queen Globe video for full details.</a></li>
                     <li><a href="JavaScript:html5Lightbox.showLightbox(3, 'http://youtu.be/h5NnFezuAhs', 'MWAN - LYNNXX EDIT');" data-width="880">Watch Miss West African Nigeria <br />- MWAN, LYNNXX EDIT</a></li>
-                    <li><a href="news/queen-globe.php">The Queen Globe event will see the winner representing Nigeria at the world supermodel international event</a></li>
-                    <li><a href="news/miss-west-africa.php">Miss West Africa Nigeria conculded at the grande finale on the 23rd of February.</a></li>                                               
+                    <li><a href="queen-globe.php">The Queen Globe event will see the winner representing Nigeria at the world supermodel international event</a></li>
+                    <li><a href="miss-west-africa.php">Miss West Africa Nigeria conculded at the grande finale on the 23rd of February.</a></li>
                 </ul>            
             </div>
             

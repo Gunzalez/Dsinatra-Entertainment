@@ -41,7 +41,7 @@
                     <p class="clearfix"><span>Sophie-Ann Diete-Spiff</span></p>
                     <p class="clearfix"><span>Miss West Africa Nigeria 2013</span></p>
                     <a href="gallery3.php" class="big-yellow">Photo Gallery</a>
-                    <a href="news/miss-west-africa.php" class="big-yellow">Full Details</a>
+                    <a href="miss-west-africa.php" class="big-yellow">Full Details</a>
                     <a href="JavaScript:html5Lightbox.showLightbox(3, 'http://youtu.be/h5NnFezuAhs', 'MWAN - LYNNXX EDIT');" data-width="480" data-height="320" class="big-yellow">Watch The Video</a>
                 </div>
             </li>
@@ -97,7 +97,7 @@
 <!--                	<p class="clearfix"><span>Olumilua Yemi</span></p>-->
 <!--                    <p class="clearfix"><span>Queen Globe Pageant 2013</span></p>-->
 <!--                    <a href="gallery3.php" class="big-yellow">Photo Gallery</a>-->
-<!--                    <a href="news/queen-globe.php" class="big-yellow">Full Details</a>-->
+<!--                    <a href="queen-globe.php" class="big-yellow">Full Details</a>-->
 <!--                </div>-->
 <!--            </li>-->
         </ul>
@@ -122,7 +122,7 @@
                 <h2 class="clearfix"><span>Queen Globe Pageant</span></h2>
                 <div class="copy">
                     <p>23 year old University of Benin undergraduate <strong>Olumilua Yemi</strong> from Ekiti State beat other contestants to win the 2013 Queen Globe Beauty pageant, at the Grand Hotel, Asaba.</p>
-                    <p>See <a href="news/queen-globe.php">full details</a> of the event, and our <a href="gallery3.php">photo gallery</a> of the contestant on various activities leading up to thew grand finale.</p>
+                    <p>See <a href="queen-globe.php">full details</a> of the event, and our <a href="gallery3.php">photo gallery</a> of the contestant on various activities leading up to thew grand finale.</p>
                     
                     <!-- 
                     <p><strong>Audition Dates</strong> - Lagos on the 8th July, Abuja on the 9th July. Port Harcourt on the 10th, Benin the 12th and Asaba on the 13th of July 2013.</p>                	
@@ -137,15 +137,16 @@
                 <h2 class="clearfix"><span>Latest News</span></h2>
                 <div class="copy">
                     <ul class="newslist">
+                        <li><a href="register.php">Word Supermodel Nigeria <br/> - Registration now open</a></li>
                     	<li><a href="gallery.php">Miss Rachel Ikehwame<br/> - Dsinatra queen</a>.</li>
                     	<li><a href="gallery4.php">New Photos from our Queens of Nigeria</a>.</li>
                         <li><a href="gallery3.php">Olumilua Yemi - Queen Globe Pageant 2013 Photo Gallery</a>.</li>
-                        <li><a href="news/miss-west-africa.php">Sophie-Ann Diete Spiff - Miss West Africa Nigeria</a>.</li>
-                    	<li><a href="JavaScript:html5Lightbox.showLightbox(3, 'http://youtu.be/h5NnFezuAhs', 'MWAN - LYNNXX EDIT');" data-width="880">Watch Miss West African Nigeria <br />- MWAN, LYNNXX EDIT</a></li>
-                        <!-- 
+                        <li><a href="miss-west-africa.php">Sophie-Ann Diete Spiff - Miss West Africa Nigeria</a>.</li>
+                        <!--
+                        <li><a href="JavaScript:html5Lightbox.showLightbox(3, 'http://youtu.be/h5NnFezuAhs', 'MWAN - LYNNXX EDIT');" data-width="880">Watch Miss West African Nigeria <br />- MWAN, LYNNXX EDIT</a></li>
                         <li><a href="form.php">Queen Globe registration begins, register online!</a></li>
-                    	<li><a href="JavaScript:html5Lightbox.showLightbox(3, 'http://youtu.be/0_5nB2qJUyE', 'Queen Globe');" data-width="880">Watch the new Queen Globe video for full details.</a></li></li>
-                    	<li><a href="news/story1.php">Miss West Africa Nigeria Grand Finale - 23rd of February.</a></li>
+                        <li><a href="JavaScript:html5Lightbox.showLightbox(3, 'http://youtu.be/0_5nB2qJUyE', 'Queen Globe');" data-width="880">Watch the new Queen Globe video for full details.</a></li></li>
+                        <li><a href="news/story1.php">Miss West Africa Nigeria Grand Finale - 23rd of February.</a></li>
                         -->                    
                     </ul>
                 </div>

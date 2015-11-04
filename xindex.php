@@ -37,7 +37,7 @@
                 <div class="copy">
                 	<p class="clearfix"><span>Queen Globe Pageant</span></p>
                     <p class="clearfix"><span>Saturday 17th August 2013</span></p>
-                    <a href="news/queen-globe.php" class="big-yellow">Read More</a> <a class="big-yellow" href="JavaScript:html5Lightbox.showLightbox(3, 'http://youtu.be/0_5nB2qJUyE', 'Queen Globe');" data-width="880">Watch The Video</a>
+                    <a href="queen-globe.php" class="big-yellow">Read More</a> <a class="big-yellow" href="JavaScript:html5Lightbox.showLightbox(3, 'http://youtu.be/0_5nB2qJUyE', 'Queen Globe');" data-width="880">Watch The Video</a>
                 </div>
             </li> 
             <li>
@@ -63,7 +63,7 @@
                 <div class="copy">
                     <p class="clearfix"><span>D.Sinatra presents</span></p>
                     <p class="clearfix"><span>Miss World Super Model</span></p>
-                    <a href="news/queen-globe.php" class="big-yellow">Read More</a>
+                    <a href="queen-globe.php" class="big-yellow">Read More</a>
                 </div>
             </li>
             <li>

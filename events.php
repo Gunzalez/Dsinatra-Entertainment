@@ -39,27 +39,174 @@
 
 <div id="content">		
     
-    <div id="eventspage" class="content">
+    <div id="eventspage" class="content events-list">
     	<div class="centered clearfix">
             
             <div class="content-box wider">
                 <h2 class="clearfix"><span>Events Timetable</span></h2>
-                <div class="copy">
+                <div class="copy clearfix">
 
-                    <h2>Apologies, this section is being updated, please comeback soon.</h2>
+                    <ul class="list">
+                        <li class="open">
+                            <div class="year clearfix">
+                                <h2>2016</h2>
+                                <div class="month">
+                                    <h3>January</h3>
+                                    <div class="day">
+                                        <h3>17th</h3>
+                                        <div class="event">
+                                            <h3>World Supermodel Nigeria</h3>
+                                            <div class="details">
+                                                <p>Location: Best Western Plus Elomax Hotel Asaba, Delta State</p>
+                                                <p>Call us on</p>
+                                                    <ul>
+                                                        <li>+234705 077 8749</li>
+                                                        <li>+234803 764 6093</li>
+                                                        <li>+234808 543 7008</li>
+                                                    </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="year clearfix">
+                                <h2>2015</h2>
+                                <div class="month">
+                                    <h3>February</h3>
+                                    <div class="day">
+                                        <h3>2nd</h3>
+                                        <div class="event">
+                                            <h3>Victory Party</h3>
+                                            <div class="details">
+                                                <p>Images coming soon.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="year clearfix">
+                                <h2>2014</h2>
+                                <div class="month">
+                                    <h3>December</h3>
+                                    <div class="day">
+                                        <h3>17th</h3>
+                                        <div class="event">
+                                            <h3>Miss West Africa International</h3>
+                                            <div class="details">
+                                                <p>Images coming soon.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="year clearfix">
+                                <h2>2013</h2>
+                                <div class="month">
+                                    <h3>February</h3>
+                                    <div class="day">
+                                        <h3>23rd </h3>
+                                        <div class="event">
+                                            <h3>Miss West Africa (Nigeria)</h3>
+                                            <div class="details">
+                                                <p><a href="gallery2.php">Photos</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="month">
+                                    <h3>August</h3>
+                                    <div class="day">
+                                        <h3>17th</h3>
+                                        <div class="event">
+                                            <h3>Queen Globe</h3>
+                                            <div class="details">
+                                                <p><a href="gallery3.php">Photos</a>,
+                                                    <a href="queen-globe.php">Article</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="year clearfix">
+                                <h2>2012</h2>
+                                <div class="month">
+                                    <h3>June</h3>
+                                    <div class="day">
+                                        <h3>29-30</h3>
+                                        <div class="event">
+                                            <h3>Carnival on the Niger</h3>
+                                            <div class="details">
+                                                <p>Images coming soon.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="month">
+                                    <h3>December</h3>
+                                    <div class="day">
+                                        <h3>22nd</h3>
+                                        <div class="event">
+                                            <h3>Jeans Party</h3>
+                                            <div class="details">
+                                                <p>Images coming soon.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="year clearfix">
+                                <h2>2009</h2>
+                                <div class="month">
+                                    <h3>October</h3>
+                                    <div class="day">
+                                        <h3>1st</h3>
+                                        <div class="event">
+                                            <h3>Jersey Party</h3>
+                                            <div class="details">
+                                                <p>Images coming soon.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="month">
+                                    <h3>December</h3>
+                                    <div class="day">
+                                        <h3>10th</h3>
+                                        <div class="event">
+                                            <h3>All Black Party</h3>
+                                            <div class="details">
+                                                <p>Images coming soon.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
 
-                    <div style="height: 400px;"></div>
-                
-                
-                
-                    
+
+
+
+
+
+
+
+
+
+
+
                 </div>
             </div>
-            
-            
-            
-            
-            
             
         </div>
     </div>
