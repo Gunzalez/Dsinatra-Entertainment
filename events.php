@@ -93,7 +93,7 @@
                                 <div class="month">
                                     <h3>December</h3>
                                     <div class="day">
-                                        <h3>17th</h3>
+                                        <h3>21st</h3>
                                         <div class="event">
                                             <h3>Miss West Africa International</h3>
                                             <div class="details">

@@ -160,14 +160,17 @@ shuffle($members);
                             Asaba, Delta State.<br /> 
                         	Nigeria.    
                         </address>
-                        Call us on - <br />
-                        <span class="phone-number">+234&nbsp;705&nbsp;077&nbsp;8749</span>,
-                        <span class="phone-number">+234&nbsp;803&nbsp;764&nbsp;6093</span>,
-                        <span class="phone-number">+234&nbsp;808&nbsp;543&nbsp;7008</span>
-                        <br />
 
-                        <a href="mailto:info@dsinatraent.com">info@dsinatraent.com</a>
-                        <br /><br /><br />
+                        <h4>Call us on</h4>
+                        <div style="clear: left">
+                            <span class="phone-number">+234&nbsp;705&nbsp;077&nbsp;8749</span>,
+                            <span class="phone-number">+234&nbsp;803&nbsp;764&nbsp;6093</span>,
+                            <span class="phone-number">+234&nbsp;808&nbsp;543&nbsp;7008</span>
+                        </div>
+
+                        Or email - <a href="mailto:info@dsinatraent.com">info@dsinatraent.com</a>
+                        <br /><br />
+
                         <h4>Account Details</h4>
                         <address>                    
                             <strong>D.Sinatra Ent.</strong>,<br />

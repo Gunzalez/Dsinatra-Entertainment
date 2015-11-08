@@ -137,12 +137,12 @@
                 <h2 class="clearfix"><span>Latest News</span></h2>
                 <div class="copy">
                     <ul class="newslist">
-                        <li><a href="register.php">Word Supermodel Nigeria <br/> - Registration now open</a></li>
+                        <li><a href="register.php">Registration is now on for World Supermodel Nigeria 2015, Hurry now!</a></li>
                     	<li><a href="gallery.php">Miss Rachel Ikehwame<br/> - Dsinatra queen</a>.</li>
                     	<li><a href="gallery4.php">New Photos from our Queens of Nigeria</a>.</li>
                         <li><a href="gallery3.php">Olumilua Yemi - Queen Globe Pageant 2013 Photo Gallery</a>.</li>
-                        <li><a href="miss-west-africa.php">Sophie-Ann Diete Spiff - Miss West Africa Nigeria</a>.</li>
                         <!--
+                        <li><a href="miss-west-africa.php">Sophie-Ann Diete Spiff - Miss West Africa Nigeria</a>.</li>
                         <li><a href="JavaScript:html5Lightbox.showLightbox(3, 'http://youtu.be/h5NnFezuAhs', 'MWAN - LYNNXX EDIT');" data-width="880">Watch Miss West African Nigeria <br />- MWAN, LYNNXX EDIT</a></li>
                         <li><a href="form.php">Queen Globe registration begins, register online!</a></li>
                         <li><a href="JavaScript:html5Lightbox.showLightbox(3, 'http://youtu.be/0_5nB2qJUyE', 'Queen Globe');" data-width="880">Watch the new Queen Globe video for full details.</a></li></li>

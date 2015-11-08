@@ -1913,12 +1913,16 @@ blockquote {
 
         .centered-text {
             text-align: center;
+
+            p {
+                padding-bottom: 5px;
+            }
         }
 
         .top-text {
-            padding-bottom: 10px;
+            padding-bottom: 15px;
             * {
-                padding-bottom: 5px;
+                padding-bottom: 2px;
             }
         }
 

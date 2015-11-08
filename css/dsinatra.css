@@ -1905,11 +1905,14 @@ blockquote {
 #rules-and-conditions .copy .centered-text {
   text-align: center;
 }
+#rules-and-conditions .copy .centered-text p {
+  padding-bottom: 5px;
+}
 #rules-and-conditions .copy .top-text {
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 #rules-and-conditions .copy .top-text * {
-  padding-bottom: 5px;
+  padding-bottom: 2px;
 }
 #rules-and-conditions .copy li {
   padding-bottom: 10px;
