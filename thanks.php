@@ -36,23 +36,8 @@
             	<h2 class="clearfix"><span>Registration completed, thanks</span></h2>
                 <p>Your application has been sent and details stored. <br />We will be contacting you shortly.</p>                                
             </div>
-            
-            <div class="content-box sidebar">
-                <div class="header-image">
-                	<a href="miss-west-africa.php">
-                        <img src="images/miss-westafrica-nigeria.jpg" width="260" height="170" alt="Miss West Africa Nigeria" class="imagery" />
-                        <h2 class="clearfix"><span>Miss West Africa Nigeria</span></h2>
-                    </a>
-                </div>
-                <div class="copy">
-                    <p>On the 23rd of Feb 2013 26 contestants gathered at Grand Hotel, Asaba, Delta State for the Miss West Africa Nigeria beauty pageant.</p>
-                </div>
-                <h2 class="clearfix"><span>Latest News</span></h2>
-                <ul class="newslist">
-                    <li><a href="queen-globe.php">The Queen Globe event will see the winner representing Nigeria at the world supermodel international event</a></li>
-                    <li><a href="miss-west-africa.php">Miss West Africa Nigeria conculded at the grande finale on the 23rd of February.</a></li>
-                </ul>            
-            </div>
+
+            <?php require_once('html/news-side-bar.php'); ?>
             
         </div>
     </div>

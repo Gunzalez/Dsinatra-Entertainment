@@ -147,7 +147,7 @@ shuffle($members);
                     
                     <div id="error">
                     	<h2>Error</h2>
-                    	<p>An error occured, your message was not delivered, please <a href="#" class="tryagain">try again</a>.</p>
+                    	<p>An error occurred, your message was not delivered, please <a href="#" class="tryagain">try again</a>.</p>
                         <p>Or use our email address below.</p>
                     </div>
                     

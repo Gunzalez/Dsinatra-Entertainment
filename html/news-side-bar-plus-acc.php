@@ -17,4 +17,21 @@
         <li><a href="form.php">Queen Globe registration begins, register online!</a></li>
         -->
     </ul>
+
+    <div class="contact-details clearfix">
+        <h4>Corporate Office</h4>
+        <address>
+            <strong>D.Sinatra Entertainment</strong>.<br />
+            Block 67 DDPA Housing Estate<br />
+            Opp Police Headquarters<br />
+            Asaba, Delta State.<br />
+            Nigeria.
+        </address>
+        <h4>Account Details</h4>
+        <address>
+            <strong>D.Sinatra Ent.</strong>,<br />
+            <strong>Guaranty Trust Bank</strong>,<br />
+            <strong>0111536848</strong>
+        </address>
+    </div>
 </div>

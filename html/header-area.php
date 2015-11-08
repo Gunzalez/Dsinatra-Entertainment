@@ -1,6 +1,6 @@
 <?php
 $pagesArr = array(
-    "index.php",
+    "index.php", // 0
     "pageantry.php",
     "register.php",
     "events.php",
@@ -10,7 +10,8 @@ $pagesArr = array(
     "gallery3.php",
     "gallery4.php",
     "entry-form.php",
-    "judging.php"
+    "judging.php",
+    "pageantry-more.php" // 11
 );
 function isActive($value1, $value2, $classStr){
 	if($value1 == $value2){
@@ -58,7 +59,7 @@ if(!d.getElementById(id)){
                 </a>
             </li>
             <li class="mn-item-2">
-                <a href="pageantry.php"<?php echo isActive($currPage, $pagesArr[1], $classStr) ?>>
+                <a href="pageantry.php"<?php echo isActive($currPage, $pagesArr[1], $classStr) ?><?php echo isActive($currPage, $pagesArr[11], $classStr); ?>>
                     <strong>Pageantry</strong>
                     <span>W. Supermodel Nigeria</span>
                 </a>

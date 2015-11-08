@@ -43,6 +43,29 @@ if(isset($_SESSION["error"])){
             <div class="content-box wide"> 
             	<h2 class="clearfix"><span class="<?php echo $error; ?>">Registration error</span></h2>
                 <p>Your application has not been sent due to a technical error. <br />Please <a href="entry-form.php">try again</a>.</p>
+                <?php
+                $errorSummary = '';
+                switch ($error) {
+                    case "711":
+                        $errorSummary = 'Numbers entered did not match numbers shown';
+                        break;
+                    case "500":
+                        $errorSummary = 'Error with headshot image';
+                        break;
+                    case "400":
+                        $errorSummary = 'Error with swimwear image';
+                        break;
+                    case "300":
+                        $errorSummary = 'Error with evening gown image';
+                        break;
+                    case "111":
+                        $errorSummary = 'Error with sending email';
+                        break;
+                    default:
+                        $errorSummary = 'There was an error';
+                }
+                ?>
+                <p><strong><?php echo $errorSummary; ?></strong></p>
             </div>
 
             <?php require_once('html/news-side-bar.php'); ?>

@@ -53,7 +53,7 @@
         </div>
         
         <div class="content-box">
-            <p class="small-print">&copy; 2015 DSINATRA ENTERTAINMENT.<br />All Rights Reserved.</p>
+            <p class="small-print">&copy; <?php echo date("Y");?> DSINATRA ENTERTAINMENT.<br />All Rights Reserved.</p>
             <ul class="social-footer clearfix">
                 <li class="like-tw"><a href="https://twitter.com/share"
                     class="twitter-share-button"
@@ -87,7 +87,7 @@
         
         	<ul class="fanchize">
                 <li><a href="queen-globe.php"><img src="images/partners/queen-globe-logo.jpg" alt="Queen globe" /></a></li>
-                <li><a href="http://dsinatraent.com/register/wsnentryform"><img src="images/partners/wsn-logo.jpg" alt="World Supermodel Nigeria" /></a></li>
+                <li><a href="entry-form.php"><img src="images/partners/wsn-logo.jpg" alt="World Supermodel Nigeria" /></a></li>
                 <li><a href="http://www.missteensupermodel.com/" target="_blank"><img src="images/partners/franchize-teensuper-model.png" alt="Super Teen Model" width="239" /></a></li>
                 <li><a href="http://www.worldsupermodelpageant.com/" target="_blank"><img src="images/partners/fanchize-national-directories.jpg" alt="National Directors" /></a></li>
                 <!--                <li class="short"><a href="http://www.missglobeinternational.com" target="_blank"><img src="images/partners/franchize-miss-globe-2.jpg" alt="Miss Queen Globe" width="100" height="100" /></a></li>-->

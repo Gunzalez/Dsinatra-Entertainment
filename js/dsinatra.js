@@ -526,7 +526,7 @@ var dsinatra = {
                         event.preventDefault();
 
                         var href = $(this).attr('href');
-                        window.open(href, "popupWindow", "width=600,height=600,scrollbars=yes");
+                        window.popup_window = window.open(href, "popupWindow", "width=600,height=600,scrollbars=yes");
 
 
                     });

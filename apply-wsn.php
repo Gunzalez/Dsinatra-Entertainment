@@ -5,7 +5,7 @@
     $sessionCode = $_SESSION["code"];
     $sentCode = getPostValue('captcha');
     if($sentCode != $sessionCode){
-        $_SESSION["error"]='captcha';
+        $_SESSION["error"]='711'; // captcha
         redirect('error.php');
     }
 
@@ -21,7 +21,7 @@
 	
 	$con = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
 	if (mysqli_connect_errno()){
-        $_SESSION["error"]='connection';
+        $_SESSION["error"]='65'; // connection
 		redirect('error.php');
 	};
 	
@@ -56,21 +56,24 @@
 	$add3 = getPostValue('address3');
     $height = getPostValue('height');
 	$weight = getPostValue('weight');
+    $sent = date("F jS, Y, g:i a");
 
 
 	// Insert into database
-	$sql = "INSERT INTO wsn (firstname, lastname, email, phone, mobile, dob, address1, address2, address3, height, weight) VALUES ('$fn', '$ln', '$email', '$phone', '$mobile', '$dob', '$add1', '$add2', '$add3', '$height', '$weight')";
+	$sql = "INSERT INTO wsn (firstname, lastname, email, phone, mobile, dob, address1, address2, address3, height, weight, sent) VALUES ('$fn', '$ln', '$email', '$phone', '$mobile', '$dob', '$add1', '$add2', '$add3', '$height', '$weight', '$sent')";
 
     //echo $sql;
 	mysqli_query($con, $sql);
-    //if (!mysqli_query($con, $sql)) {
-    //    printf("Error: %s\n", mysqli_error($con));
-    //}
+//    if (!mysqli_query($con, $sql)) {
+//        printf("Error: %s\n", mysqli_error($con));
+//    }
 	
 	// Create email
     //$mailto = "rob@twelvenoon.co.uk";
-    //$mailto = "gunzalez@gmail.com";
-    $mailto = "info@dsinatraent.com";
+//$mailto = "gunzalez@gmail.com";
+$mailto = "eva3lazing@gmail.com";
+
+//$mailto = "info@dsinatraent.com";
 	
 	$yourMessage  = "<table cellspacing=\"10\" cellpadding=\"0\" border=\"0\">";
 	$yourMessage .= "<tr><td>Date sent:</td><td>" . date("F jS, Y, g:i a") . "</td></tr>";
@@ -114,11 +117,11 @@
         $msg = $img->upload_image ('Image', 'headshot', $path, $filename);
         if (empty($msg)) {
             if (!$img->resize_image (500, 500, $path)) {
-                $_SESSION["error"]='headshot';
+                $_SESSION["error"]='500'; // headshot imagery 1
                 redirect('error.php');
             }
         } else {
-            $_SESSION["error"]='headshot2';
+            $_SESSION["error"]='500'; // headshot imagery 1
             redirect('error.php');
         }
     }
@@ -139,11 +142,11 @@
         $msg = $img->upload_image ('Image', 'swimwear', $path, $filename);
         if (empty($msg)) {
             if (!$img->resize_image (500, 500, $path)) {
-                $_SESSION["error"]='swimwear';
+                $_SESSION["error"]='400';  // swimwear
                 redirect('error.php');
             }
         } else {
-            $_SESSION["error"]='swimwear2';
+            $_SESSION["error"]='swimwear2';  // swimwear 2
             redirect('error.php');
         }
     }
@@ -164,11 +167,11 @@
         $msg = $img->upload_image ('Image', 'eveninggown', $path, $filename);
         if (empty($msg)) {
             if (!$img->resize_image (500, 500, $path)) {
-                $_SESSION["error"]='eveninggown';
+                $_SESSION["error"]='300';  // evening gown
                 redirect('error.php');
             }
         } else {
-            $_SESSION["error"]='eveninggown2';
+            $_SESSION["error"]='300';  // evening gown 2
             redirect('error.php');
         }
     }
@@ -179,7 +182,7 @@
 	
 	
 	if (!$mail->Send()) {
-        $_SESSION["error"]=$mail->ErrorInfo;
+        $_SESSION["error"]='111'; // email error $mail->ErrorInfo
 		redirect('error.php');
 		//echo $mail->ErrorInfo;
 	}

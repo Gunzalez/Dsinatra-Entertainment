@@ -69,15 +69,12 @@
                         <li>have a strong desire to represent Nigeria</li>
                         <li>be willing to be an ambassador overseas as well as at international events</li>
                     </ul>
-                    <p>Please see <a href="rules-and-conditions.php" class="new-window">rule and conditions</a> of entry.</p>
-
+                    <p>Please see <a href="rules-and-conditions.php" class="new-window">rules and conditions</a> of entry.</p>
 
                 </div>
             </div>
 
-
-
-            <?php require_once('html/news-side-bar.php'); ?>
+            <?php require_once('html/news-side-bar-plus-acc.php'); ?>
             
         </div>
     </div>

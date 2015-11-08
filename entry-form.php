@@ -175,7 +175,7 @@
                 </form>
             </div>
 
-            <?php require_once('html/news-side-bar.php'); ?>
+            <?php require_once('html/news-side-bar-plus-acc.php'); ?>
             
         </div>
     </div>
