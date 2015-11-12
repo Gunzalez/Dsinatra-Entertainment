@@ -97,7 +97,7 @@
                                         <div class="event">
                                             <h3>Miss West Africa International</h3>
                                             <div class="details">
-                                                <p>Images coming soon.</p>
+                                                <p><a href="gallery5.php">Photos</a></p>
                                             </div>
                                         </div>
                                     </div>

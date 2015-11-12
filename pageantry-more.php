@@ -42,30 +42,30 @@
                     </h2>
 
                     <p>This is to formally introduce an event tagged "World Supermodel Nigeria" - WSN2015 scheduled to hold 17th January, 2016 in the prestigious State Capital, Asaba.</p>
+                    <p>"WSN" – World Supermodel Nigeria hopes to be an annual event and the program that will bring notable people across the state and outside Nigeria together to create business and development opportunities for stakeholders; individuals and corporate bodies as well as the government.</p>
 
                     <p><img src="images/wsn-imagery-large.jpg"></p>
 
-                    <p>"WSN" – World Supermodel Nigeria hopes to be an annual event and the program that will bring notable people across the state and outside Nigeria together to create business and development opportunities for stakeholders; individuals and corporate bodies as well as the government.</p>
-
                     <p>The event is geared towards identifying talents amongst the state and creating better networking in Delta and its environs, devising means through which such creative potentials can be groomed, nurtured and exposed to the world.</p>
-
-                    <p>World Supermodel Nigeria 2015/16 debuts in Delta State, for the second time, It's an event poised to bringing out hidden talents, it will be a way of bringing the glitz, glamour, culture, creativity and a medium to network.</p>
-                    <p>The event is poised to provide wholesome entertainment which will further strengthen the relationship between the people of Delta and your company. From research, Delta State has birthed over a hundred (100) successful recognized individuals with international recognition (a very good example is Sen. Dr. Ifeanyi Okowa; the current Governor of Delta State), who will be willing to make a statement, geared towards celebrating the cultural values in the State for the first time and more enfancy on the SMART AGENDA (PROSPERITY FOR ALL DELTANS). The event is strictly based on using the public platform for the display of the culture, beauty, co-ordination, intelligence, peaceful co-existence and talents that abound amongst the community for the whole world to see; and "wealth creation through fashion". It therefore becomes expedient to also host some notable personalities in the Pageant, Fashion and Music Industry.</p>
+                    <p>World Supermodel Nigeria 2015 debuts in Delta State, for the second time, It's an event poised to bringing out hidden talents, it will be a way of bringing the glitz, glamour, culture, creativity and a medium to network.</p>
+                    <p>The event is poised to provide wholesome entertainment which will further strengthen the relationship between the people of Delta and Nigeria at large.</p>
+                    <p>The event is strictly based on using the public platform for the display of the culture, beauty, co-ordination, intelligence, peaceful co-existence and talents that abound amongst the community for the whole world to see; and "wealth creation through fashion". It therefore becomes expedient to also host some notable personalities in the Pageant, Fashion and Music Industry.</p>
 
                     <h2>Aims and Objectives of WSN2015</h2>
                     <p>It is aimed at wealth creation through fashion and changing the mindset of the public and showing them the true nature of Pageant and Fashion</p>
                     <ul>
-                        <li>To promote creativity.</li>
+                        <li>To promote creativity</li>
                         <li>To create wealth</li>
-                        <li>To Promote Fashion</li>
-                        <li>To promote Social and Economic Development.</li>
-                        <li>To give our people the opportunity to show their Crafts.</li>
-                        <li>To create business and development opportunities for stakeholders; individuals and corporate bodies as well as the government.</li>
-                        <li>To create a networking platform, encourage Investors and Entrepreneurs within and outside the State.</li>
-                        <li>To showcase the talents that abounds in the community.</li>
+                        <li>To promote fashion</li>
+                        <li>To promote social and economic development</li>
+                        <li>To give our people the opportunity to show their crafts</li>
+                        <li>To create business and development opportunities for stakeholders; individuals and corporate bodies as well as the government</li>
+                        <li>To create a networking platform, encourage investors and entrepreneurs within and outside the state</li>
+                        <li>To showcase the talents that abounds in the community</li>
                     </ul>
+
                     <h2>The Target Audience</h2>
-                    <p>World Supermodel Nigeria is not targeted at Delta state alone, but also the external community and Nigeria at large. This will result in impressive media coverage which will epitomize the essence of <strong>World Supermodel Nigeria</strong>.</p>
+                    <p>World Supermodel Nigeria is not targeted at Delta state alone, but also the external community and Nigeria at large. This will result in impressive media coverage which will epitomize the essence of World Supermodel Nigeria.</p>
 
                     <h2>The Event</h2>
                     <p>WSN 2015 is a blend of edutainment, glitz, glamour, fashion, comedy, music and style. The event will be hosted by a talented show host who epitomizes the core values and ethos of State</p>

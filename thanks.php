@@ -34,7 +34,9 @@
         
             <div class="content-box wide"> 
             	<h2 class="clearfix"><span>Registration completed, thanks</span></h2>
-                <p>Your application has been sent and details stored. <br />We will be contacting you shortly.</p>                                
+                <p>Your application has been sent and details stored. <br />We will be contacting you shortly.</p>
+                <br />
+                <p><img src="images/wsn-flier-2.jpg" width="580" alt="World Supermodel Nigeria"></p>
             </div>
 
             <?php require_once('html/news-side-bar.php'); ?>

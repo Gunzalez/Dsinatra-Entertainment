@@ -11,7 +11,8 @@ $pagesArr = array(
     "gallery4.php",
     "entry-form.php",
     "judging.php",
-    "pageantry-more.php" // 11
+    "pageantry-more.php", // 11
+    "gallery5.php" // 12
 );
 function isActive($value1, $value2, $classStr){
 	if($value1 == $value2){
@@ -65,7 +66,12 @@ if(!d.getElementById(id)){
                 </a>
             </li>
             <li class="mn-item-3">
-                <a href="gallery.php"<?php echo isActive($currPage, $pagesArr[4], $classStr) ?><?php echo isActive($currPage, $pagesArr[6], $classStr) ?><?php echo isActive($currPage, $pagesArr[7], $classStr) ?><?php echo isActive($currPage, $pagesArr[8], $classStr) ?>>
+                <a href="gallery.php"
+                    <?php echo isActive($currPage, $pagesArr[4], $classStr) ?>
+                    <?php echo isActive($currPage, $pagesArr[6], $classStr) ?>
+                    <?php echo isActive($currPage, $pagesArr[7], $classStr) ?>
+                    <?php echo isActive($currPage, $pagesArr[8], $classStr) ?>
+                    <?php echo isActive($currPage, $pagesArr[12], $classStr) ?>>
                     <strong>Gallery</strong>
                     <span>Images and Video</span>
                 </a>
@@ -91,7 +97,7 @@ if(!d.getElementById(id)){
             </li>
         </ul>
         <div id="phone-numbers">
-            <p><strong>+234&nbsp;705&nbsp;077&nbsp;8749 &nbsp;&nbsp; +234&nbsp;803&nbsp;764&nbsp;6093 &nbsp;&nbsp; +234&nbsp;808&nbsp;543&nbsp;7008</strong></p>
+            <p><strong>0705&nbsp;077&nbsp;8749 &nbsp;&nbsp; 0803&nbsp;764&nbsp;6093 &nbsp;&nbsp; 0808&nbsp;543&nbsp;7008</strong></p>
         </div>
         <ul id="social-nav">
         	<li class="fb"><a href="https://www.facebook.com/pages/DSinatra/300785450024245?fref=ts" target="_blank">Facebook</a></li>

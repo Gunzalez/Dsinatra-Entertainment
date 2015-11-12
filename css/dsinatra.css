@@ -1918,6 +1918,11 @@ blockquote {
   padding-bottom: 10px;
 }
 
+.content .content-box .copy ul {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
 /* ------------------------------------------------------------------------------------------------------------- */
 .clearfix:before, .clearfix:after {
   content: "";

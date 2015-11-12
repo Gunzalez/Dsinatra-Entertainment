@@ -49,7 +49,8 @@
                 <p class="more-galleries">
                     <a href="gallery4.php">Queens of Nigerian (2)</a>
                 	<a href="gallery3.php">Queen Globe Event (7)</a>
-                	<a href="gallery2.php">Miss West Africa Nigeria Photos</a>
+                    <a href="gallery5.php">Miss West Africa Int. 2014 (4)</a>
+                    <a href="gallery2.php">Miss West Africa Nigeria Photos</a>
                 </p>    
             </div>
             

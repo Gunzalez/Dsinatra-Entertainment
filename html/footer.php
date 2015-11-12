@@ -86,7 +86,6 @@
     	<div class="centered clearfix"> 
         
         	<ul class="fanchize">
-                <li><a href="https://instagram.com/mythmodels/" target="_blank"><img src="images/partners/myth.jpg" alt="Myth" /></a></li>
                 <li><a href="queen-globe.php"><img src="images/partners/queen-globe-logo.jpg" alt="Queen globe" /></a></li>
                 <li><a href="entry-form.php"><img src="images/partners/wsn-logo.jpg" alt="World Supermodel Nigeria" /></a></li>
                 <li><a href="http://www.missteensupermodel.com/" target="_blank"><img src="images/partners/franchize-teensuper-model.png" alt="Super Teen Model" width="239" /></a></li>
@@ -100,9 +99,10 @@
                 <li><a href="http://www.pageshandmade.com" target="_blank"><img src="images/partners/house-of-pagiz.jpg" alt="" /></a></li>
                 <li><a href="https://www.facebook.com/pages/Sna-Fashion/510248735681262?ref=hl" target="_blank"><img src="images/partners/sna-logo.jpg" alt="" /></a></li>
                 <li><a href="http://glitteratiiconic.net/" target="_blank"><img src="images/partners/glitterati.jpg" alt="" /></a></li>
+                <li><a href="https://www.facebook.com/evablazingent" target="_blank"><img src="images/partners/eva-blazing-ent.jpg" alt="" /></a></li>
                 <li><a href="http://fadan.ng/" target="_blank"><img src="images/partners/FADAN.jpg" alt="" /></a></li>
                 <li><a href="http://www.maksinshair.com/" target="_blank"><img src="images/partners/logo-maskins.jpg" alt="" /></a></li>
-                <li><a href="https://www.facebook.com/evablazingent" target="_blank"><img src="images/partners/eva-blazing-ent.jpg" alt="" /></a></li>
+                <li><a href="https://instagram.com/mythmodels/" target="_blank"><img src="images/partners/myth.jpg" alt="Myth" /></a></li>
 
 
                 <!--                <li><a href="#" target="_blank"><img src="images/partners/gp-foods.png" alt="" /></a></li>-->

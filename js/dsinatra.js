@@ -52,7 +52,7 @@ var dsinatra = {
 			$('#slideshow ul li .copy').not('.active .copy').css('display','none');*/
 			
 			// next and prev buttons
-			var nextButton = $('<a href="#" class="controls prev">Prev</a>');
+			var nextButton = $('<a href="#" class="controls prev right-button">Prev</a>');
 			nextButton.css({
 				left: '0'
 			}).on('click',function(e){
@@ -65,7 +65,7 @@ var dsinatra = {
 						dsinatra.carousel.prev();
 					}
 				});
-			var prevButton = $('<a href="#" class="controls next">Next</a>');
+			var prevButton = $('<a href="#" class="controls next left-button">Next</a>');
 			prevButton.css({
 				right: '0'
 			}).on('click',function(e){
