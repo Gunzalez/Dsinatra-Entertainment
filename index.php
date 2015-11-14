@@ -63,6 +63,8 @@
                 <div class="copy">
                     <p class="clearfix"><span>World Supermodel Nigeria</span></p>
                     <a href="pageantry.php" class="big-yellow">Details</a>
+                    <a href="register.php" class="big-yellow">Apply now!</a>
+
                     <!--                    <a href="wsn-form.php" class="big-yellow">Entry Form</a>-->
                 </div>
             </li>
@@ -130,7 +132,7 @@
                 <h2 class="clearfix"><span>Latest News</span></h2>
                 <div class="copy">
                     <ul class="newslist">
-                        <li><a href="register.php">Registration is now on for World Supermodel Nigeria 2015, Hurry now!</a></li>
+                        <li class="new"><a href="register.php">Registration is now on for World Supermodel Nigeria 2015, Hurry now!</a></li>
                         <li><a href="gallery.php">Miss Rachel Ikehwame<br/> - Dsinatra queen</a>.</li>
                         <li><a href="gallery4.php">New Photos from our Queens of Nigeria</a>.</li>
                         <li><a href="gallery3.php">Olumilua Yemi - Queen Globe Pageant 2013 Photo Gallery</a>.</li>

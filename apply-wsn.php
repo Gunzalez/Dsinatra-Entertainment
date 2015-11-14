@@ -70,8 +70,9 @@
 	
 	// Create email
     //$mailto = "rob@twelvenoon.co.uk";
-//$mailto = "gunzalez@gmail.com";
-$mailto = "eva3lazing@gmail.com";
+    //$mailto = "gunzalez@gmail.com";
+    //$mailto = "eva3lazing@gmail.com";
+    $mailto = "info@dsinatraent.com";
 
 //$mailto = "info@dsinatraent.com";
 	
@@ -106,11 +107,13 @@ $mailto = "eva3lazing@gmail.com";
 	$mail->MsgHTML($yourMessage);
 	//$mail->Body = $yourMessage;
 
+    $randomString = generateRandomString();
+
     if (!empty($_FILES['headshot']['tmp_name'])) {
         $img = new MFC_Image();
 
         if (!empty($fn) && !empty($ln)) {
-            $filename = $fn.'_'.$ln.'_headshot_'.generateRandomString();
+            $filename = $fn.'_'.$ln.'_headshot_'.$randomString;
         } else {
             $filename = $_FILES['headshot']['name'];
         }
@@ -135,7 +138,7 @@ $mailto = "eva3lazing@gmail.com";
         $img = new MFC_Image();
 
         if (!empty($fn) && !empty($ln)) {
-            $filename = $fn.'_'.$ln.'_swimwear_'.generateRandomString();
+            $filename = $fn.'_'.$ln.'_swimwear_'.$randomString;
         } else {
             $filename = $_FILES['swimwear']['name'];
         }
@@ -160,7 +163,7 @@ $mailto = "eva3lazing@gmail.com";
         $img = new MFC_Image();
 
         if (!empty($fn) && !empty($ln)) {
-            $filename = $fn.'_'.$ln.'_evening_gown_'.generateRandomString();
+            $filename = $fn.'_'.$ln.'_evening_gown_'.$randomString;
         } else {
             $filename = $_FILES['eveninggown']['name'];
         }

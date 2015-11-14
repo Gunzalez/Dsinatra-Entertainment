@@ -25,12 +25,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18777777" vertical-offset="2313" max-vertical-offset="3213">
-              <caret line="146" column="51" selection-start-line="146" selection-start-column="51" selection-end-line="146" selection-end-column="51" />
+            <state vertical-scroll-proportion="-21.615385" vertical-offset="543" max-vertical-offset="3247">
+              <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="entry-form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/entry-form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-90.23077" vertical-offset="459" max-vertical-offset="3332">
+              <caret line="165" column="30" selection-start-line="165" selection-start-column="30" selection-end-line="165" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="apply-wsn.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apply-wsn.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.26444444" vertical-offset="1020" max-vertical-offset="3434">
+              <caret line="74" column="35" selection-start-line="74" selection-start-column="15" selection-end-line="74" selection-end-column="35" />
+              <folding>
+                <marker date="1447543377704" expanded="true" signature="1906:2141" placeholder="INSERT INTO ..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,7 +60,7 @@
       <file leaf-file-name="dsinatra.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/dsinatra.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.84" vertical-offset="597" max-vertical-offset="12121">
+            <state vertical-scroll-proportion="0.0" vertical-offset="597" max-vertical-offset="12121">
               <caret line="54" column="90" selection-start-line="54" selection-start-column="90" selection-end-line="54" selection-end-column="90" />
               <folding />
             </state>
@@ -48,7 +70,7 @@
       <file leaf-file-name="backup-index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backup-index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="3213">
+            <state vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="3213">
               <caret line="25" column="110" selection-start-line="0" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
               <folding />
             </state>
@@ -58,7 +80,7 @@
       <file leaf-file-name="dsinatra.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/dsinatra.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-26.615385" vertical-offset="32509" max-vertical-offset="33575">
+            <state vertical-scroll-proportion="0.0" vertical-offset="32509" max-vertical-offset="33575">
               <caret line="1953" column="22" selection-start-line="1953" selection-start-column="22" selection-end-line="1953" selection-end-column="22" />
               <folding />
             </state>
@@ -93,7 +115,6 @@
         <option value="$PROJECT_DIR$/miss-west-africa.php" />
         <option value="$PROJECT_DIR$/gallery/rachel-ikehwame.php" />
         <option value="$PROJECT_DIR$/error.php" />
-        <option value="$PROJECT_DIR$/apply-wsn.php" />
         <option value="$PROJECT_DIR$/register.php" />
         <option value="$PROJECT_DIR$/entry-form.php" />
         <option value="$PROJECT_DIR$/judging.php" />
@@ -120,7 +141,9 @@
         <option value="$PROJECT_DIR$/pageantry.php" />
         <option value="$PROJECT_DIR$/scss/dsinatra.scss" />
         <option value="$PROJECT_DIR$/js/dsinatra.js" />
+        <option value="$PROJECT_DIR$/apply-wsn-2.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/apply-wsn.php" />
       </list>
     </option>
   </component>
@@ -220,15 +243,15 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="0fb1bf1e-2869-4c69-ba44-7597c485c943" server_name="DSinatra">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-env-vars>false</pass-parent-env-vars>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="0fb1bf1e-2869-4c69-ba44-7597c485c943" server_name="DSinatra">
       <method />
     </configuration>
     <list size="0" />
@@ -267,28 +290,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1078" y="104" width="1874" height="1096" extended-state="0" />
+    <frame x="1078" y="104" width="1874" height="1096" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23784901" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6227979" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16079295" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16244493" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6227979" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -314,13 +337,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/dsinatra.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="20096" max-vertical-offset="28050">
-          <caret line="1186" column="33" selection-start-line="1186" selection-start-column="33" selection-end-line="1186" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/dsinatra.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1768" max-vertical-offset="11713">
@@ -469,24 +485,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/entry-form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.115385" vertical-offset="2430" max-vertical-offset="3332">
-          <caret line="163" column="50" selection-start-line="163" selection-start-column="50" selection-end-line="163" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/judging.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6533333" vertical-offset="908" max-vertical-offset="1836">
           <caret line="88" column="69" selection-start-line="88" selection-start-column="69" selection-end-line="88" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apply-wsn.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="3383">
-          <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -593,7 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="709">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -601,7 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.5384617" vertical-offset="969" max-vertical-offset="2023">
           <caret line="67" column="34" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -655,7 +655,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/dsinatra.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-26.615385" vertical-offset="32509" max-vertical-offset="33575">
+        <state vertical-scroll-proportion="0.0" vertical-offset="32509" max-vertical-offset="33575">
           <caret line="1953" column="22" selection-start-line="1953" selection-start-column="22" selection-end-line="1953" selection-end-column="22" />
           <folding />
         </state>
@@ -663,7 +663,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backup-index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="3213">
+        <state vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="3213">
           <caret line="25" column="110" selection-start-line="0" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
           <folding />
         </state>
@@ -671,17 +671,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/dsinatra.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.84" vertical-offset="597" max-vertical-offset="12121">
+        <state vertical-scroll-proportion="0.0" vertical-offset="597" max-vertical-offset="12121">
           <caret line="54" column="90" selection-start-line="54" selection-start-column="90" selection-end-line="54" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entry-form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-90.23077" vertical-offset="459" max-vertical-offset="3332">
+          <caret line="165" column="30" selection-start-line="165" selection-start-column="30" selection-end-line="165" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18777777" vertical-offset="2313" max-vertical-offset="3213">
-          <caret line="146" column="51" selection-start-line="146" selection-start-column="51" selection-end-line="146" selection-end-column="51" />
+        <state vertical-scroll-proportion="-21.615385" vertical-offset="543" max-vertical-offset="3247">
+          <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apply-wsn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26444444" vertical-offset="1020" max-vertical-offset="3434">
+          <caret line="74" column="35" selection-start-line="74" selection-start-column="15" selection-end-line="74" selection-end-column="35" />
+          <folding>
+            <marker date="1447543377704" expanded="true" signature="1906:2141" placeholder="INSERT INTO ..." />
+          </folding>
         </state>
       </provider>
     </entry>
