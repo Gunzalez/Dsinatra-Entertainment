@@ -1923,6 +1923,16 @@ blockquote {
   margin-bottom: 20px;
 }
 
+.new-slider .carousel-slide {
+  position: relative;
+  width: 950px;
+  height: 450px;
+}
+
+.c {
+  padding: 0 !important;
+}
+
 /* ------------------------------------------------------------------------------------------------------------- */
 .clearfix:before, .clearfix:after {
   content: "";

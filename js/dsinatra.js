@@ -353,7 +353,8 @@ var dsinatra = {
 			
 			// lightbox the initial images
 			//dsinatra.gallery.attachHover();
-			$('#photos a').lightBox();				
+			$('#photos a').lightBox();
+
 			
 			$('#photo-nav li').on('click',function(e){
 				e.preventDefault();
