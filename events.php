@@ -57,13 +57,9 @@
                                             <h3>World Supermodel Nigeria</h3>
                                             <div class="details">
                                                 <p>Location: Best Western Plus Elomax Hotel Asaba, Delta State</p>
-                                                <p><a href="images/wsn-flier-2.jpg" class="stand-alone-link"><img src="images/wsn-flier-2-teaser.jpg" width="100%" /></a></p>
-                                                <p>Call us on</p>
-                                                <ul>
-                                                    <li>+234705 077 8749</li>
-                                                    <li>+234803 764 6093</li>
-                                                    <li>+234808 543 7008</li>
-                                                </ul>
+                                                <p><a href="JavaScript:html5Lightbox.showLightbox(0, 'images/wsn-flier-2.jpg');" class="stand-alone-link lightBox-link"><img src="images/wsn-flier-2-teaser.jpg" width="100%" /></a></p>
+                                                <p>Call us on - +234705 077 8749, +234803 764 6093, +234808 543 7008</p>
+                                                <p><a href="register.php">Apply online now!</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -193,16 +189,6 @@
                             </div>
                         </li>
                     </ul>
-
-
-
-
-
-
-
-
-
-
 
 
                 </div>

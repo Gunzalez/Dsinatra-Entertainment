@@ -38,12 +38,17 @@
                 <div class="copy">
                     <h2 class="clearfix">
                         <span>World Supermodel Nigeria</span>
-                        <a class="more-button" href="pageantry.php">Back</a>
                     </h2>
+                    <div class="sub-page-nav clearfix">
+                        <ul>
+                            <li><a href="pageantry.php">Pageantry</a></li>
+                            <li><a class="current-page">Introduction</a></li>
+                        </ul>
+                    </div>
 
                     <p>This is to formally introduce an event tagged "World Supermodel Nigeria" - WSN2015 scheduled to hold 17th January, 2016 in the prestigious State Capital, Asaba.</p>
                     <p>"WSN" – World Supermodel Nigeria hopes to be an annual event and the program that will bring notable people across the state and outside Nigeria together to create business and development opportunities for stakeholders; individuals and corporate bodies as well as the government.</p>
-
+                    <br />
                     <p><img src="images/wsn-imagery-large.jpg"></p>
 
                     <p>The event is geared towards identifying talents amongst the state and creating better networking in Delta and its environs, devising means through which such creative potentials can be groomed, nurtured and exposed to the world.</p>

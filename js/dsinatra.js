@@ -178,40 +178,7 @@ var dsinatra = {
 	events: {
 		curList : 0,
 		setUp: function(){
-									
-			$('.events a').on('click',function(e){
-				
-				e.preventDefault();
-				if($(this).hasClass('no-images')){
-					return false;	
-				}
-				
-				$('.events .active').removeClass('active');
-				$(this).addClass('active').blur();
-				
-				var eventlist = $(this).parents('.events');
-				var eventIndex = $('.events').index(eventlist);
-				
-				// move details div, then scroll page
-				if(dsinatra.events.curList != eventIndex) {					
-					$('#details').insertAfter('.events:eq('+eventIndex+')');
-					dsinatra.events.curList = eventIndex;
-					$('body,html').animate({
-						scrollTop: $('.events:eq('+eventIndex+')').offset().top - 100
-					}, 750);
-				}		
-				var index = $('.events:eq('+eventIndex+') a').index($(this));
-				$('#details .arrow').css({
-						'background-position': ((155 * index) + 50)+'px 0'
-					});				
-				$('#details .copy').html($(this).find('.copy').html());
-				$('span.link').css({
-					cursor : 'pointer'
-					}).on('click',function(){
-						window.location = $(this).attr('data-link')
-						})				
-			});
-			$('.events:eq('+dsinatra.events.curList+') a:eq(2)').trigger('click');			
+
 		}		
 	},
 	gallery2: {
@@ -354,7 +321,6 @@ var dsinatra = {
 			// lightbox the initial images
 			//dsinatra.gallery.attachHover();
 			$('#photos a').lightBox();
-
 			
 			$('#photo-nav li').on('click',function(e){
 				e.preventDefault();

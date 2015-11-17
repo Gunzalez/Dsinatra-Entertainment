@@ -38,23 +38,21 @@
     <div id="slideshow">
         <ul>
             <li>
-                <img src="images/slideshow/slide1-off.jpg" width="950" height="450">
-                <img src="images/slideshow/slide1.jpg" width="950" height="450" class="imagery">
-                <div class="copy">
-                    <p class="clearfix"><span>Sophie-Ann Diete-Spiff</span></p>
-                    <p class="clearfix"><span>Miss West Africa Nigeria 2013</span></p>
-                    <a href="gallery3.php" class="big-yellow">Photo Gallery</a>
-                    <a href="miss-west-africa.php" class="big-yellow">Full Details</a>
-                    <a href="JavaScript:html5Lightbox.showLightbox(3, 'http://youtu.be/h5NnFezuAhs', 'MWAN - LYNNXX EDIT');" data-width="480" data-height="320" class="big-yellow">Watch The Video</a>
-                </div>
-            </li>
-            <li class="active">
                 <img src="images/slideshow/slide-rachel-off.jpg" width="950" height="450">
                 <img src="images/slideshow/slide-rachel-on.jpg" width="950" height="450" class="imagery">
                 <div class="copy">
                     <p class="clearfix"><span>Miss Rachel Ikehwame</span></p>
                     <p class="clearfix"><span>Dsinatra Queen</span></p>
                     <a href="gallery.php" class="big-yellow">New Photos!</a>
+                </div>
+            </li>
+            <li class="active">
+                <img src="images/slideshow/slide-myth-model-off.jpg" width="950" height="450">
+                <img src="images/slideshow/slide-myth-model.jpg" width="950" height="450" class="imagery">
+                <div class="copy">
+                    <p class="clearfix"><span>World Supermodel Nigeria</span></p>
+                    <a href="pageantry.php" class="big-yellow">Details</a>
+                    <a href="register.php" class="big-yellow">Apply now!</a>
                 </div>
             </li>
             <li>
@@ -64,8 +62,6 @@
                     <p class="clearfix"><span>World Supermodel Nigeria</span></p>
                     <a href="pageantry.php" class="big-yellow">Details</a>
                     <a href="register.php" class="big-yellow">Apply now!</a>
-
-                    <!--                    <a href="wsn-form.php" class="big-yellow">Entry Form</a>-->
                 </div>
             </li>
             <li>
@@ -75,6 +71,17 @@
                     <p class="clearfix"><span>Okeke Queen</span></p>
                     <p class="clearfix"><span>Teen Super Model Nigeria</span></p>
                     <a href="gallery4.php" class="big-yellow">See photos</a>
+                </div>
+            </li>
+            <li>
+                <img src="images/slideshow/slide1-off.jpg" width="950" height="450">
+                <img src="images/slideshow/slide1.jpg" width="950" height="450" class="imagery">
+                <div class="copy">
+                    <p class="clearfix"><span>Sophie-Ann Diete-Spiff</span></p>
+                    <p class="clearfix"><span>Miss West Africa Nigeria 2013</span></p>
+                    <a href="gallery3.php" class="big-yellow">Photo Gallery</a>
+                    <a href="miss-west-africa.php" class="big-yellow">Full Details</a>
+                    <a href="JavaScript:html5Lightbox.showLightbox(3, 'http://youtu.be/h5NnFezuAhs', 'MWAN - LYNNXX EDIT');" data-width="480" data-height="320" class="big-yellow">Watch The Video</a>
                 </div>
             </li>
             <li>

@@ -38,9 +38,16 @@
                 <div class="copy">
                     <h2 class="clearfix">
                         <span>World Supermodel Nigeria</span>
-                        <a class="more-button" href="pageantry-more.php">More</a>
                     </h2>
+                    <div class="sub-page-nav clearfix">
+                        <ul>
+                            <li><a class="current-page">Pageantry</a></li>
+                            <li><a class="more-button" href="introduction.php">Introduction</a></li>
+                        </ul>
+                    </div>
+
                     <p>After the overwhelming success for the past years – D.Sinatra Ent. once again secures the rights (Franchise) as the National Director to host the 2nd Annual World Supermodel Nigeria with a spectacular show planned for January 10-17, 2016.</p>
+                    <br />
                     <p><img src="images/wsn-banner-large-tumbnail.jpg" width="100%"></p>
                     <p>15 stunning models from round the country will storm the city of Asaba, Delta State to compete for the prestigious title of World Supermodel Nigeria and World Teen Supermodel Nigeria.</p>
 
@@ -52,7 +59,12 @@
                         <li>She gets to be featured in one of the Nigeria promising Director movies. AUSTIN FAANI IKECHUKWU</li>
                         <li>She gets national recognized by FADAN - Fashion Designers Association of Nigeria</li>
                     </ul>
-                        <p>*Same freebies apply to the winner of the Miss Teen SuperModel Nigeria 2015.</p>
+                    <p>*Same freebies apply to the winner of the Miss Teen SuperModel Nigeria 2015.</p>
+
+                    <br />
+
+                    <p><img src="images/myth-model.jpg" width="100%" /></p>
+
                 </div>
             </div>
 
